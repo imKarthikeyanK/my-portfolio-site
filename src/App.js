@@ -60,9 +60,25 @@ function App() {
         <Suspense fallback={<div className="lazy"></div>}>
           <Route render={({ location }) => (
             <div className="Almighty-Router">
-              <h2>Router</h2>
+              <NavBar pages={pages} />
+              <Switch location={location}>
+                {pages.map((page, index) => {
+                  return (
+                    <Route
+                      exact
+                      path={page.pageLink}
+                      render={({ match }) => (
+                        <page.view key={match.params.statusCode || index} />
+                      )}
+                      key={index}
+                    />
+                  )
+                })}
+                <Redirect to="/" />
+              </Switch>
             </div>
-          )} />
+          )}
+          />
         </Suspense>
       </Router>
     </div>
