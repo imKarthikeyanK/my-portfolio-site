@@ -1,10 +1,11 @@
 import React, { Fragment } from 'react';
+import { Link } from 'react-router-dom';
 
 
-function NavBar() {
+function NavBar({pages}) {
     return (
-        <Fragment>
-            <h1>NavBar</h1>
-        </Fragment>
+        <div className="Navbar">
+        <h1>NavBar</h1>
+        </div>
     )
 } export default NavBar;
