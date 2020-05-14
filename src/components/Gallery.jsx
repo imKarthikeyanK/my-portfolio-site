@@ -1,10 +1,10 @@
 import React, { Fragment } from 'react';
 
 
-function Photography() {
+function Gallery() {
     return (
         <Fragment>
-            <h1>Photography</h1>
+            <h1>Gallery</h1>
         </Fragment>
     )
-} export default Photography;
+} export default Gallery;
