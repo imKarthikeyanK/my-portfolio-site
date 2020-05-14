@@ -9,11 +9,9 @@ function NavBar({ pages }) {
                 <h1>KKK</h1>
             </div>
             <div className="nav">
-                {pages.map((page, index) => {
-                    return (
-                        <h3>{page.displayName}</h3>
-                    )
-                })}
+                {pages.map((page, index) => (
+                    <Link to={page.pageLink} key={index}>{page.displayName}</Link>
+                ))}
             </div>
         </div>
     )

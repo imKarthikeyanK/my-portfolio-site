@@ -1,6 +1,8 @@
 // colot palatte
+
 $blue : #280087;
-$white: rgb(201, 52, 52);
+$white: white;
+$hover-color: #b6b6b6;
 
 
 .App {
@@ -9,25 +11,33 @@ $white: rgb(201, 52, 52);
   font-size: 10px;
 }
 
-.Navbar{
+.Navbar {
   background-color: $blue;
   height: 4.5rem;
   display: flex;
-  .brand{
-    h1{
+
+  .brand {
+    flex-grow: 1;
+    h1 {
       margin: 0px;
       padding: 20px;
       font-size: 2rem;
     }
   }
-  .nav{
-    h3{
-      margin: 0px;
+
+  .nav {
+    margin-right: 0;
+    text-align: right;
+    padding: 24px;
+
+    a {
+      color: $white;
+      text-decoration: none;
+      font-size: 1.2rem;
       padding: 20px;
-      font-size: 1.3rem;
+      &:hover{
+        color: $hover-color;
+      }
     }
   }
-  
 }
-
-
