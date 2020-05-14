@@ -1,9 +1,10 @@
 import React, { Suspense, lazy } from 'react';
-import logo from './logo.svg';
 import Home from './components/home';
-import Photography from './components/Photography';
+import Gallery from './components/Gallery';
 import TechStack from './components/TechStack';
 import NavBar from './components/Navbar';
+import Projects from './components/Projects';
+import SocialMedia from './components/SocialMedia';
 import Footer from './components/Footer';
 import { Helmet } from 'react-helmet';
 import {
@@ -34,16 +35,30 @@ function App() {
       showInNavbar: true
     },
     {
-      pageLink: '/tech-stack',
+      pageLink: '/tech',
       view: TechStack,
-      displayName: 'Tech Stack',
+      displayName: 'Tech',
       aminationDelayForNavbar: 0.2,
       showInNavbar: true
     },
     {
-      pageLink: '/photography',
-      view: Photography,
-      displayName: 'PhotoGraphy',
+      pageLink: '/projects',
+      view: Projects,
+      displayName: 'Projects',
+      aminationDelayForNavbar: 0.2,
+      showInNavbar: true
+    },
+    {
+      pageLink: '/gallery',
+      view: Gallery,
+      displayName: 'Gallery',
+      aminationDelayForNavbar: 0.2,
+      showInNavbar: true
+    },
+    {
+      pageLink: '/connect',
+      view: SocialMedia,
+      displayName: 'Connect',
       aminationDelayForNavbar: 0.2,
       showInNavbar: true
     }
