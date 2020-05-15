@@ -1,6 +1,8 @@
 import React, { Fragment } from 'react';
 import { Link } from 'react-router-dom';
 import { useWindowSize } from 'react-use';
+import { ReactComponent as MenuIcon } from '../static/svg/menu.svg';
+// import Icon from './common/Icon';
 
 
 function NavBar({ pages }) {
@@ -18,7 +20,7 @@ function NavBar({ pages }) {
                     ))
                 )}
                 {width < 768 && (
-                    <p>X</p>
+                    <MenuIcon />
                 )}
             </div>
         </div>
