@@ -1,10 +1,11 @@
 import React, { Fragment } from 'react';
+import LandingBlock from './components/LandingBlock'
 
 
 function Home() {
     return (
         <Fragment>
-            <h1>Home</h1>
+            <LandingBlock />
         </Fragment>
     )
 } export default Home;

@@ -1,44 +1,18 @@
 // colot palatte
 
-$blue : #280087;
+$bg-landing : #280087;
 $white: white;
 $hover-color: #b6b6b6;
 
+@import './styles/nav.scss';
+@import './styles/home.scss';
+
+html {
+  font-size: 62.5%;
+}
 
 .App {
   font-family: 'Ubuntu';
   color: $white;
-  font-size: 10px;
 }
 
-.Navbar {
-  background-color: $blue;
-  height: 4.5rem;
-  display: flex;
-
-  .brand {
-    flex-grow: 1;
-    h1 {
-      margin: 0px;
-      padding: 20px;
-      letter-spacing: 0.2rem;
-      font-size: 1.8rem;
-    }
-  }
-
-  .nav {
-    margin-right: 0;
-    text-align: right;
-    padding: 24px;
-
-    a {
-      color: $white;
-      text-decoration: none;
-      font-size: 1.2rem;
-      padding: 20px;
-      &:hover{
-        color: $hover-color;
-      }
-    }
-  }
-}
