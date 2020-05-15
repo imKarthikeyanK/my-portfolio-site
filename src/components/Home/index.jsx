@@ -7,4 +7,4 @@ function Home() {
             <h1>Home</h1>
         </Fragment>
     )
-}export default Home;
+} export default Home;

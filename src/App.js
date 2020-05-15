@@ -1,5 +1,5 @@
 import React, { Suspense, lazy } from 'react';
-import Home from './components/home';
+import Home from './components/Home';
 import Gallery from './components/Gallery';
 import TechStack from './components/TechStack';
 import NavBar from './components/Navbar';
