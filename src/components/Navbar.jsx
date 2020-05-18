@@ -25,4 +25,5 @@ function NavBar({ pages }) {
             </div>
         </div>
     )
-} export default NavBar;
+} 
+export default NavBar;
