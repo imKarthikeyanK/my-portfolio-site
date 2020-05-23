@@ -16,3 +16,12 @@ html {
   color: $white;
 }
 
+.row{
+  display: flex;
+}
+
+.colFlex1Center{
+  flex: 1;
+  text-align: center;
+}
+
