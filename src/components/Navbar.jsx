@@ -14,7 +14,7 @@ function NavBar({ pages }) {
             <div className="brand">
                 <h1>KKK</h1>
             </div>
-            <div className="nav">
+            <div className={`nav ${expand && 'expand-bg'}`}>
                 {width >= 768 && (
                     pages.map((page, index) => (
                         <Link to={page.pageLink} key={index}>{page.displayName}</Link>
