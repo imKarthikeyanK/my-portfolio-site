@@ -8,8 +8,7 @@
 
         h1 {
             margin: 0px;
-            padding: 2.1rem;
-            padding-left: 2rem;
+            padding: 2.1rem 2.7rem;
             letter-spacing: 0.2rem;
             font-size: 2.5rem;
         }
@@ -45,12 +44,16 @@
         position: absolute;
         height: 100vh;
         width: 100vh;
-        background: $bg-landing;
+        background: $bg-mob-nav;
         & > * {
             font-size: 2rem;
-            padding: 2rem;
+            padding: 2rem 2.7rem;
             text-decoration: none;
             color: $white;
         }
+    }
+
+    .expand-bg{
+        background-color: $bg-mob-nav;
     }
 }
