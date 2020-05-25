@@ -31,35 +31,35 @@ function App() {
       pageLink: '/',
       view: Home,
       displayName: 'Home',
-      aminationDelayForNavbar: 0.2,
+      animationDelayForNavbar: 0.1,
       showInNavbar: true
     },
     {
       pageLink: '/tech',
       view: TechStack,
       displayName: 'Tech',
-      aminationDelayForNavbar: 0.2,
+      animationDelayForNavbar: 0.2,
       showInNavbar: true
     },
     {
       pageLink: '/projects',
       view: Projects,
       displayName: 'Projects',
-      aminationDelayForNavbar: 0.2,
+      animationDelayForNavbar: 0.3,
       showInNavbar: true
     },
     {
       pageLink: '/gallery',
       view: Gallery,
       displayName: 'Gallery',
-      aminationDelayForNavbar: 0.2,
+      animationDelayForNavbar: 0.4,
       showInNavbar: true
     },
     {
       pageLink: '/connect',
       view: SocialMedia,
       displayName: 'Connect',
-      aminationDelayForNavbar: 0.2,
+      animationDelayForNavbar: 0.5,
       showInNavbar: true
     }
   ]
