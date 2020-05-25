@@ -2,7 +2,6 @@ import React, { Fragment, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { useWindowSize, useLockBodyScroll } from 'react-use';
 import { ReactComponent as MenuIcon } from '../static/svg/menu.svg';
-// import Icon from './common/Icon';
 
 
 const navLinkProps = (path, animationDelay) => ({
