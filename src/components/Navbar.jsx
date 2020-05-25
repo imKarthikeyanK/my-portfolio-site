@@ -1,26 +1,35 @@
 import React, { Fragment, useState } from 'react';
 import { Link } from 'react-router-dom';
-import { useWindowSize, useAsync } from 'react-use';
+import { useWindowSize, useLockBodyScroll } from 'react-use';
 import { ReactComponent as MenuIcon } from '../static/svg/menu.svg';
 // import Icon from './common/Icon';
 
+
+const navLinkProps = (path, animationDelay) => ({
+    className: `fadeInUp ${window.location.pathname === path ? 'focused' : ''}`,
+    style: {
+        animationDelay: `${animationDelay}s`
+    },
+});
 
 function NavBar({ pages }) {
     const { width } = useWindowSize();
     const [expand, setExpand] = useState(false);
     console.log(";;;; window sizw", width, expand)
+    useLockBodyScroll(expand);
+
     return (
         <div className="Navbar">
             <div className="brand">
                 <h1>KKK</h1>
             </div>
-            <div className={`nav ${expand && 'expand-bg'}`}>
-                {width >= 768 && (
+            <div className={`nav ${expand && 'expand-bg'}`} >
+                {width > 769 && (
                     pages.map((page, index) => (
                         <Link to={page.pageLink} key={index}>{page.displayName}</Link>
                     ))
                 )}
-                {width < 768 && (
+                {width < 769 && (
                     <MenuIcon onClick={() => setExpand(!expand)} />
                 )}
             </div>
@@ -38,9 +47,13 @@ function NavbarExtended({ pages, expand, setExpand }) {
                     <Link
                         to={page.pageLink}
                         key={i}
-                        onClick={()=>setExpand(false)}
+                        onClick={() => setExpand(false)}
                     >
-                        {page.displayName}
+                        <span
+                            {...navLinkProps(page.pageLink, page.animationDelayForNavbar)}
+                        >
+                            {page.displayName}
+                        </span>
                     </Link>
                 )
             })}
