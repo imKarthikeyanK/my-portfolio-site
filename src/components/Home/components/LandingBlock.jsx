@@ -7,8 +7,14 @@ function LandingBlock() {
             <div className="landingBlock">
                 <div className="row">
                     <div>
-                        <p>I'm</p>
-                        <h1>Karthikeyan K</h1>
+                        <div>
+                            <p>I'm</p>
+                        </div>
+                        <div className="text-slider">
+                            <div className="slider1">Karthikeyan K</div>
+                            <div className="slider2">KKK</div>
+                            <div className="slider3">Karthikn K</div>
+                        </div>
                     </div>
                     <div>
                         <h1>Pic block</h1>
