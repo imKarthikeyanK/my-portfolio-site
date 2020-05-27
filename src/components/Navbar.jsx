@@ -38,7 +38,6 @@ function NavBar({ pages }) {
 }
 
 function NavbarExtended({ pages, expand, setExpand }) {
-    
     return (
         <div className="expand">
             {pages.map((page, i) => {
