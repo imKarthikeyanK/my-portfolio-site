@@ -20,12 +20,12 @@ html {
   color: $white;
 }
 
-.row{
+.row {
   display: flex;
+  flex-wrap: wrap;
 }
 
-.colFlex1Center{
+.colFlex1Center {
   flex: 1;
   text-align: center;
 }
-
