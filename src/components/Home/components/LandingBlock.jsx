@@ -8,7 +8,7 @@ function LandingBlock() {
                 <div className="row">
                     <div>
                         <p>I'm</p>
-                        <p>Karthikeyan K</p>
+                        <h1>Karthikeyan K</h1>
                     </div>
                     <div>
                         <h1>Pic block</h1>
