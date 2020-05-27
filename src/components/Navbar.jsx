@@ -12,10 +12,10 @@ const navLinkProps = (path, animationDelay) => ({
 });
 
 function NavBar({ pages }) {
-    const { width } = useWindowSize();
+    const WindowSize = useWindowSize();
     const [expand, setExpand] = useState(false);
-    console.log(";;;; window sizw", width, expand)
     useLockBodyScroll(expand);
+    WindowSize.width > 769 && expand && setExpand(false)
 
     return (
         <div className="Navbar">
@@ -23,12 +23,12 @@ function NavBar({ pages }) {
                 <h1>KKK</h1>
             </div>
             <div className={`nav ${expand && 'expand-bg'}`} >
-                {width > 769 && (
+                {WindowSize.width > 769 && (
                     pages.map((page, index) => (
                         <Link to={page.pageLink} key={index}>{page.displayName}</Link>
                     ))
                 )}
-                {width < 769 && (
+                {WindowSize.width < 769 && (
                     <MenuIcon onClick={() => setExpand(!expand)} />
                 )}
             </div>
@@ -38,7 +38,7 @@ function NavBar({ pages }) {
 }
 
 function NavbarExtended({ pages, expand, setExpand }) {
-    console.log(pages, expand)
+    
     return (
         <div className="expand">
             {pages.map((page, i) => {
