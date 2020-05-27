@@ -43,8 +43,8 @@
         top: 6.9rem;
         position: absolute;
         height: 100vh;
-        width: 100vh;
-        background: $bg-mob-nav;
+        width: 100vw;
+        background: linear-gradient(45deg, $mob-menu-gradient1, $mob-menu-gradient2);;
 
         &>* {
             font-size: 2rem;
