@@ -12,30 +12,18 @@
                 margin: 3rem 0 3rem 0;
             }
 
-            .text-slider {
-                height: 13.8rem;
-                overflow: hidden;
+            h1 {
+                font-size: 12rem;
+                margin: 0 0 30px 0;
+            }
 
-                div {
-                    height: 13.8rem;
-                    margin-bottom: 5rem;
-                    box-sizing: border-box;
-                }
+            .skillIntro {
+                padding-left: 4px;
 
-                .slider1 {
-                    font-size: 12rem;
+                p {
+                    font-size: 2.5rem;
                     margin-top: 0;
-                    animation: slideUp 5s linear infinite;
-                }
-
-                .slider2 {
-                    font-size: 12rem;
-                    margin-top: 0;
-                }
-
-                .slider3 {
-                    font-size: 12rem;
-                    margin-top: 0;
+                    letter-spacing: .2rem;
                 }
             }
 
@@ -45,50 +33,26 @@
                     margin: 3rem 0 3rem 0;
                 }
 
-                .text-slider {
-                    h1:nth-child(1) {
-                        font-size: 4.6rem;
-                    }
+                h1 {
+                    font-size: 4.6rem;
+                }
 
-                    h1:nth-child(2) {
-                        font-size: 4.6rem;
-                    }
-
-                    h1:nth-child(3) {
-                        font-size: 4.6rem;
+                .skillIntro {
+                    p {
+                        font-size: 1.5rem;
+                        margin-top: 0;
+                        letter-spacing: .2rem;
                     }
                 }
             }
+
         }
-    }
-}
 
-@keyframes slideUp {
-    0% {
-        margin-top: -300px;
-    }
-
-    5% {
-        margin-top: -200px;
-    }
-
-    33% {
-        margin-top: -200px;
-    }
-
-    38% {
-        margin-top: -100px;
-    }
-
-    66% {
-        margin-top: -100px;
-    }
-
-    71% {
-        margin-top: 0px;
-    }
-
-    100% {
-        margin-top: 0px;
+        .profilePicture {
+            img {
+                height: 100%;
+                width: 100%;
+            }
+        }
     }
 }
