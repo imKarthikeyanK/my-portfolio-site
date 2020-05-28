@@ -1,4 +1,5 @@
 import React, { Fragment } from 'react';
+import profileImage from '../../../static/images/karthikeyank.jpg';
 
 
 function LandingBlock() {
@@ -7,17 +8,14 @@ function LandingBlock() {
             <div className="landingBlock">
                 <div className="row">
                     <div>
-                        <div>
-                            <p>I'm</p>
-                        </div>
-                        <div className="text-slider">
-                            <div className="slider1">Karthikeyan K</div>
-                            <div className="slider2">KKK</div>
-                            <div className="slider3">Karthikn K</div>
+                        <p>I'm</p>
+                        <h1>Karthikeyan K</h1>
+                        <div className="skillIntro">
+                            <p>A Python Developer, React Developer, Full Stack Developer</p>
                         </div>
                     </div>
-                    <div>
-                        <h1>Pic block</h1>
+                    <div className="profilePicture">
+                        <img src={profileImage} alt="karthikeyank"></img>
                     </div>
                 </div>
             </div>
