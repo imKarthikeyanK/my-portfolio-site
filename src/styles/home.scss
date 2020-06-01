@@ -26,17 +26,39 @@
                     letter-spacing: .2rem;
                 }
             }
+        }
 
-            @media only screen and (max-width: 769px) {
+        .profilePicture {
+            flex: 1;
+            order: 2;
+            padding: 10rem 14rem;
+            img {
+                width: 100%;
+                border: 10px solid $white;
+                border-radius: 50%;
+                box-shadow: 0 0 50px 10px black;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 769px) {
+
+    .landingBlock {
+    
+        .row:nth-child(1) {
+    
+            div:nth-child(1) {
+                order: 2;
                 p {
                     font-size: 4rem;
                     margin: 3rem 0 3rem 0;
                 }
-
+            
                 h1 {
                     font-size: 4.6rem;
                 }
-
+            
                 .skillIntro {
                     p {
                         font-size: 1.5rem;
@@ -45,17 +67,14 @@
                     }
                 }
             }
-
-        }
-
-        .profilePicture {
-            flex: 1;
-            padding: 10rem 14rem;
-            img {
-                width: 100%;
-                border: 10px solid $white;
-                border-radius: 50%;
-                box-shadow: 0 0 50px 10px black;
+    
+            .profilePicture {
+                flex: 1;
+                order: 1;
+                padding: 2rem 9rem;
+                img {
+                    border: 7px solid $white;
+                }
             }
         }
     }
