@@ -35,9 +35,9 @@ function App() {
       showInNavbar: true
     },
     {
-      pageLink: '/tech',
+      pageLink: '/skills',
       view: TechStack,
-      displayName: 'Tech',
+      displayName: 'Skills',
       animationDelayForNavbar: 0.2,
       showInNavbar: true
     },
