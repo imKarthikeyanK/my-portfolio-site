@@ -8,7 +8,7 @@ function LandingBlock() {
             <div className="landingBlock">
                 <div className="row">
                     <div>
-                        <p>I'm</p>
+                        <p>Hello, I'm</p>
                         <h1>Karthikeyan K</h1>
                         <div className="skillIntro">
                             <p>A Python Developer, React Developer, Full Stack Developer</p>
