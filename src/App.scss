@@ -1,7 +1,8 @@
 // colot palatte
 
-$bg-landing : #280087;
+$bg-landing : white;
 $white: white;
+$land-font-color: black;
 $hover-color: #dbdbdb;
 $bg-mob-nav: #3000a0;
 $menuBorderColor: #4e18cc;
@@ -17,7 +18,7 @@ html {
 
 .App {
   font-family: 'Ubuntu';
-  color: $white;
+  color: $land-font-color;
 }
 
 .row {
