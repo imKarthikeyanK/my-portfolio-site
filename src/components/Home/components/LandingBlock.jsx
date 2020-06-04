@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react';
-import profileImage from '../../../static/images/karthikeyan.png';
+import profileImage from '../../../static/images/karthikeyank.jpg';
 
 
 function LandingBlock() {
