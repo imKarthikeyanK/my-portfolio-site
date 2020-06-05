@@ -1,6 +1,6 @@
 .landingBlock {
     background-color: $bg-landing;
-    min-height: 96vh;
+    min-height: 93vh;
     margin-top: -1px;
 
     .row:nth-child(1) {
@@ -34,7 +34,7 @@
             padding: 2rem 5rem;
             img {
                 width: 100%;
-                border: 10px solid $white;
+                border: 10px solid $land-font-color;
                 // border-radius: 50%;
                 box-shadow: 0 0 50px 10px black;
             }
