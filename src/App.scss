@@ -3,6 +3,7 @@
 $bg-landing : #DDDDDD;
 $white: white;
 $land-font-color: #001f3f;
+// $bg-second: #001f3f;
 $hover-color: #dbdbdb;
 $bg-mob-nav: #3000a0;
 $menuBorderColor: #4e18cc;
@@ -12,6 +13,7 @@ $mob-menu-gradient2: #3700b9;
 @import './styles/nav.scss';
 @import './styles/home.scss';
 @import './styles/footer.scss';
+@import './styles/introduction.scss';
 
 html {
   font-size: 62.5%;
