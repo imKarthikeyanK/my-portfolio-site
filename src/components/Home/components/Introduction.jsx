@@ -1,10 +1,25 @@
-import React, {Fragment} from 'react';
+import React, { Fragment } from 'react';
+import profileImage from '../../../static/images/karthikeyank.jpg';
 
 
-function Introduction(){
+function Introduction() {
     return (
         <Fragment>
-            <h1>Introuction block</h1>
+            <div className="introduction">
+                <div className="col">
+                    <div className="profilePicture">
+                        <img src={profileImage} alt="karthikeyank"></img>
+                    </div>
+                </div>
+                <div className="col">
+                    <p>aafsiouo ureutiuh oirutoer iodfhgdhf 8orutoeh fdihgkjdhf jdfhgkjdfhgd fdghdofihgdflkhg ldfigldifhrhr kfhdkghfdgjhdfg rueui oidfgod dlfghdflk lkorieeghlkdfhg  ihlhk ldfkghldfk ldfhgldh dflgh dfhgdlfhoidifrf ifufh rfhhd epe seoflk sdfioirnlkd aafsiouo ureutiuh oirutoer iodfhgdhf 8orutoeh fdihgkjdhf jdfhgkjdfhgd fdghdofihgdflkhg ldfigldifhrhr kfhdkghfdgjhdfg rueui oidfgod dlfghdflk lkorieeghlkdfhg  ihlhk ldfkghldfk ldfhgldh dflgh dfhgdlfhoidifrf ifufh rfhhd epe seoflk sdfioirnlkd</p>
+                    <p>aafsiouo ureutiuh oirutoer iodfhgdhf 8orutoeh fdihgkjdhf jdfhgkjdfhgd fdghdofihgdflkhg ldfigldifhrhr kfhdkghfdgjhdfg rueui oidfgod dlfghdflk lkorieeghlkdfhg  ihlhk ldfkghldfk ldfhgldh dflgh dfhgdlfhoidifrf ifufh rfhhd epe seoflk sdfioirnlkd aafsiouo ureutiuh oirutoer iodfhgdhf 8orutoeh fdihgkjdhf jdfhgkjdfhgd fdghdofihgdflkhg ldfigldifhrhr kfhdkghfdgjhdfg rueui oidfgod dlfghdflk lkorieeghlkdfhg  ihlhk ldfkghldfk ldfhgldh dflgh dfhgdlfhoidifrf ifufh rfhhd epe seoflk sdfioirnlkd</p>
+                    <p>aafsiouo ureutiuh oirutoer iodfhgdhf 8orutoeh fdihgkjdhf jdfhgkjdfhgd fdghdofihgdflkhg ldfigldifhrhr kfhdkghfdgjhdfg rueui oidfgod dlfghdflk lkorieeghlkdfhg  ihlhk ldfkghldfk ldfhgldh dflgh dfhgdlfhoidifrf ifufh rfhhd epe seoflk sdfioirnlkd aafsiouo ureutiuh oirutoer iodfhgdhf 8orutoeh fdihgkjdhf.</p>
+                </div>
+            </div>
+            <div className="skills-btn">
+                <button type="button">SKILLS</button>
+            </div>
         </Fragment>
     )
 } export default Introduction;
