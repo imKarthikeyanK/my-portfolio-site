@@ -1,10 +1,12 @@
-import React, {Fragment } from 'react';
+import React, { Fragment } from 'react';
 
 
 function Footer() {
     return (
         <Fragment>
-            <h1>Footer</h1>
+            <div className="footer">
+
+            </div>
         </Fragment>
     )
 } export default Footer;

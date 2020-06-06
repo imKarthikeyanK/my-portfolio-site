@@ -91,6 +91,7 @@ function App() {
                 })}
                 <Redirect to="/" />
               </Switch>
+              <Footer />
             </div>
           )}
           />

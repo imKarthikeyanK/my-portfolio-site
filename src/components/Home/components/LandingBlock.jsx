@@ -14,9 +14,9 @@ function LandingBlock() {
                             <p>A Python Developer, React Developer, Full Stack Developer</p>
                         </div>
                     </div>
-                    <div className="profilePicture">
+                    {/* <div className="profilePicture">
                         <img src={profileImage} alt="karthikeyank"></img>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </Fragment>
