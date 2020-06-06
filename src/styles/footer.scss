@@ -1,10 +1,34 @@
-.footer{
-    min-height: 20rem;
+.footer {
     background: $land-font-color;
     display: flex;
 
-    .col{
-flex: 1;
-color: wheat;
+    .col {
+        flex: 1;
+        color: $white;
+        text-align: center;
+        padding: 4rem;
+
+        p {
+            font-size: 16px;
+        }
+
+        a {
+            color: $white;
+        }
+
+        .connect-btn{
+            height: 5rem;
+            width: 40%;
+            font-size: 1.6rem;
+            font-weight: bold;
+            color: $land-font-color;
+            margin-top: 6%;
+            border: none;
+        }
+
+        .connect-btn:hover{
+            background: $bg-landing;
+            cursor: pointer;
+        }
     }
 }
