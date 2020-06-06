@@ -1,0 +1,58 @@
+.introduction {
+    min-height: 100vh;
+    background-color: $bg-landing;
+    display: flex;
+
+    .col:nth-child(1) {
+        flex: 1;
+
+        .profilePicture {
+            flex: 1;
+            order: 2;
+            padding: 10rem 6rem;
+
+            img {
+                width: 100%;
+                border: 10px solid $land-font-color;
+                border-radius: 1.5rem;
+                box-shadow: 0 0 50px 10px black;
+            }
+        }
+    }
+
+    .col:nth-child(2) {
+        flex: 2;
+        padding: 0rem 6rem 2rem;
+
+        p {
+            font-size: 2.4rem;
+            color: $land-font-color;
+        }
+    }
+}
+
+.skills-btn {
+    background-color: $bg-landing;
+    text-align: center;
+    padding: 4rem;
+
+    button {
+        height: 5rem;
+        width: 20%;
+        font-size: 1.6rem;
+        font-weight: bold;
+        color: $bg-landing;
+        border: none;
+        letter-spacing: 0.2rem;
+        background: $land-font-color;
+        transition: all 0.45s ease-in-out;
+    }
+
+    button:hover {
+        border: 5px solid $land-font-color;
+        background-color: $bg-landing;
+        color: $land-font-color;
+        cursor: pointer;
+        transition: all 0.45s ease-in-out;
+    }
+}
