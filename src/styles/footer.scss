@@ -1,4 +1,10 @@
 .footer{
     min-height: 20rem;
     background: $land-font-color;
+    display: flex;
+
+    .col{
+flex: 1;
+color: wheat;
+    }
 }
