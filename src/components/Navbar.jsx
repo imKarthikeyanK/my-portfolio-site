@@ -20,12 +20,14 @@ function NavBar({ pages }) {
     return (
         <div className="Navbar">
             <div className="brand">
-                <h1>KKK</h1>
+                <div className="brand-nav">
+                    <Link to={'/'} className="ahover"><h1>KKK</h1></Link>
+                </div>
             </div>
             <div className={`nav ${expand && 'expand-bg'}`} >
                 {WindowSize.width > 769 && (
                     pages.map((page, index) => (
-                        <Link to={page.pageLink} key={index}>{page.displayName}</Link>
+                        <Link to={page.pageLink} key={index} className="ahover" >{page.displayName}</Link>
                     ))
                 )}
                 {WindowSize.width < 769 && (
