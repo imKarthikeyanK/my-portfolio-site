@@ -94,9 +94,9 @@
 @media only screen and (max-width: 769px) {
 
     .landingBlock {
-
+        min-height: 60vh;
         .row:nth-child(1) {
-
+            padding: 4rem 3rem 0rem 3rem;
             div:nth-child(1) {
                 order: 2;
 
@@ -121,11 +121,43 @@
             .profilePicture {
                 flex: 1;
                 order: 1;
-                padding: 2rem 9rem;
+                padding: 0rem 25rem;
+            }
+        }
+    }
+}
 
-                img {
-                    border: 7px solid $white;
+@media only screen and (max-width: 414px) {
+
+    .landingBlock {
+        min-height: 90vh;
+        .row:nth-child(1) {
+            padding: 4rem 3rem 0rem 3rem;
+            div:nth-child(1) {
+                order: 2;
+
+                p {
+                    font-size: 4rem;
+                    margin: 3rem 0 3rem 0;
                 }
+
+                h1 {
+                    font-size: 4.6rem;
+                }
+
+                .skillIntro {
+                    p {
+                        font-size: 1.5rem;
+                        margin-top: 0;
+                        letter-spacing: .2rem;
+                    }
+                }
+            }
+
+            .profilePicture {
+                flex: 1;
+                order: 1;
+                padding: 0rem 8rem;
             }
         }
     }

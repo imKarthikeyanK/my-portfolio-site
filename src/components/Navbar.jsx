@@ -27,7 +27,11 @@ function NavBar({ pages }) {
             <div className={`nav ${expand && 'expand-bg'}`} >
                 {WindowSize.width > 769 && (
                     pages.map((page, index) => (
-                        <Link to={page.pageLink} key={index} className="ahover" >{page.displayName}</Link>
+                        <Link
+                            to={page.pageLink}
+                            key={index}
+                            className={`ahover ${window.location.pathname === page.pageLink ? 'active-menu' : ' '}`}
+                        >{page.displayName}</Link>
                     ))
                 )}
                 {WindowSize.width < 769 && (

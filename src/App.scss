@@ -24,3 +24,15 @@ html {
   flex: 1;
   text-align: center;
 }
+
+::-webkit-scrollbar {
+  width: .7rem;
+}
+
+::-webkit-scrollbar-track {
+  background: $bg-landing;
+}
+
+::-webkit-scrollbar-thumb {
+  background: $land-font-color;
+}

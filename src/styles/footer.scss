@@ -1,6 +1,7 @@
 .footer {
     background: $land-font-color;
     display: flex;
+    flex-wrap: wrap;
 
     .col {
         flex: 1;
@@ -16,7 +17,7 @@
             color: $white;
         }
 
-        .connect-btn{
+        .connect-btn {
             height: 5rem;
             width: 25rem;
             font-size: 1.6rem;
@@ -28,12 +29,20 @@
             transition: all 0.45s ease-in-out;
         }
 
-        .connect-btn:hover{
+        .connect-btn:hover {
             border: 5px solid $bg-landing;
             background-color: $land-font-color;
             cursor: pointer;
             color: $bg-landing;
             transition: all 0.45s ease-in-out;
+        }
+    }
+}
+
+@media only screen and (max-width:769px) {
+    .footer {
+        .col:nth-child(1) {
+            padding-bottom: 0;
         }
     }
 }

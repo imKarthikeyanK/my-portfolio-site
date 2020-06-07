@@ -1,7 +1,8 @@
 .introduction {
-    min-height: 100vh;
+    // min-height: 100vh;
     background-color: $bg-landing;
     display: flex;
+    flex-wrap: wrap;
 
     .col:nth-child(1) {
         flex: 1;
@@ -13,9 +14,9 @@
 
             img {
                 width: 100%;
-                border: 10px solid $land-font-color;
-                border-radius: 1.5rem;
-                box-shadow: 0 0 50px 10px black;
+                // border: 10px solid $land-font-color;
+                // border-radius: 1.5rem;
+                box-shadow: -4px 4px 20px 2px rgb(61, 61, 61);
             }
         }
     }
@@ -25,8 +26,11 @@
         padding: 0rem 6rem 0rem;
 
         p {
-            font-size: 2.4rem;
-            color: $land-font-color;
+            font-size: 2rem;
+            color: #001f3f;
+            text-align: justify;
+            text-indent: 10rem;
+            word-spacing: 1rem;
         }
     }
 }
@@ -54,5 +58,23 @@
         color: $land-font-color;
         cursor: pointer;
         transition: all 0.45s ease-in-out;
+    }
+}
+
+@media only screen and (max-width: 769px) {
+
+    .introduction {
+    
+        .col:nth-child(1) {
+    
+            .profilePicture {
+                padding: 0rem 8rem 3rem 6rem;
+            }
+        }
+
+        .col:nth-child(2) {
+            flex: 2;
+            padding: 0rem 3rem 0rem;
+        }
     }
 }
