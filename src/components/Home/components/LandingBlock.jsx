@@ -1,5 +1,6 @@
 import React, { Fragment } from 'react';
-import profileImage from '../../../static/images/karthikeyank.jpg';
+// import profileImage from '../../../static/images/karthikeyank.jpg';
+import CodingSVG from '../../../static/svg/code.svg';
 
 
 function LandingBlock() {
@@ -14,9 +15,12 @@ function LandingBlock() {
                             <p>A Python Developer, React Developer, Full Stack Developer</p>
                         </div>
                     </div>
-                    {/* <div className="profilePicture">
-                        <img src={profileImage} alt="karthikeyank"></img>
-                    </div> */}
+                    <div className="profilePicture">
+                        <img src={CodingSVG} alt="karthikeyank"></img>
+                    </div>
+                </div>
+                <div className="down-arrow">
+                    <span></span>
                 </div>
             </div>
         </Fragment>
