@@ -18,17 +18,22 @@
 
         .connect-btn{
             height: 5rem;
-            width: 40%;
+            width: 25rem;
             font-size: 1.6rem;
             font-weight: bold;
             color: $land-font-color;
             margin-top: 6%;
             border: none;
+            letter-spacing: 0.2rem;
+            transition: all 0.45s ease-in-out;
         }
 
         .connect-btn:hover{
-            background: $bg-landing;
+            border: 5px solid $bg-landing;
+            background-color: $land-font-color;
             cursor: pointer;
+            color: $bg-landing;
+            transition: all 0.45s ease-in-out;
         }
     }
 }
