@@ -1,0 +1,22 @@
+@mixin a-style {
+    color: $land-font-color;
+    text-decoration: none;
+}
+
+@mixin a-draw-line($width, $bottom, $left) {
+    content: "";
+    position: absolute;
+    width: $width;
+    height: 4px;
+    bottom: $bottom;
+    left: $left;
+    background-color: $land-font-color;
+    visibility: hidden;
+    transform: scaleX(0);
+    transition: all 0.3s ease-in-out;
+}
+
+@mixin a-draw-line-hover {
+    visibility: visible;
+    transform: scaleX(1);
+}
