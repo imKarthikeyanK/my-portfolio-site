@@ -1,5 +1,6 @@
 import React, { Fragment } from 'react';
 import profileImage from '../../../static/images/karthikeyank.jpg';
+import { Link } from 'react-router-dom';
 
 
 function Introduction() {
@@ -18,7 +19,9 @@ function Introduction() {
                 </div>
             </div>
             <div className="skills-btn">
-                <button type="button">SKILLS</button>
+                <Link to={'/skills'}>
+                    <button type="button">SKILLS</button>
+                </Link>
             </div>
         </Fragment>
     )
