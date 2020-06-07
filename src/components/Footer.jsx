@@ -13,7 +13,7 @@ function Footer() {
                 </div>
                 <div className="col">
                     <Link to={'/connect'}>
-                        <button type="button" className="connect-btn">Connect</button>
+                        <button type="button" className="connect-btn">CONNECT</button>
                     </Link>
                 </div>
             </div>
