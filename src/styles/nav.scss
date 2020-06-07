@@ -1,7 +1,10 @@
+@import './mixins.scss';
+
 .Navbar {
     background-color: $bg-landing;
     // height: 7rem;
     display: flex;
+    padding-bottom: 3rem;
 
     .brand {
         flex-grow: 1;
@@ -12,6 +15,27 @@
             letter-spacing: 0.2rem;
             font-size: 3.5rem;
         }
+
+        .brand-nav {
+            // position: relative;
+
+            a {
+                @include a-style;
+            }
+
+            a.ahover {
+                position: absolute;
+            }
+
+            a.ahover:before {
+                @include a-draw-line(50%, 2.5rem, 3.6rem);
+            }
+
+            a.ahover:hover:before {
+                @include a-draw-line-hover;
+            }
+        }
+
     }
 
     .nav {
@@ -20,14 +44,21 @@
         padding: 6rem 2rem 0rem;
 
         a {
-            color: $land-font-color;
-            text-decoration: none;
+            @include a-style;
             font-size: 2rem;
             padding: 2rem;
+        }
 
-            &:hover {
-                color: $hover-color;
-            }
+        a.ahover {
+            position: relative;
+        }
+
+        a.ahover:before {
+            @include a-draw-line(75%, 1.4rem, 1.5rem);
+        }
+
+        a.ahover:hover:before {
+            @include a-draw-line-hover;
         }
 
         svg {
@@ -44,7 +75,7 @@
         position: absolute;
         height: 100vh;
         width: 100vw;
-        background: linear-gradient(45deg, $mob-menu-gradient1, $mob-menu-gradient2);;
+        background: linear-gradient(45deg, $mob-menu-gradient1, $mob-menu-gradient2);
 
         &>* {
             font-size: 2rem;
