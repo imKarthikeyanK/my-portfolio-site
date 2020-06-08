@@ -4,6 +4,7 @@
 @import './styles/home.scss';
 @import './styles/footer.scss';
 @import './styles/introduction.scss';
+@import './styles/skills.scss';
 // @import './styles/mixins.scss';
 
 html {
@@ -13,6 +14,10 @@ html {
 .App {
   font-family: 'Ubuntu';
   color: $land-font-color;
+}
+
+body {
+  background-color: $bg-landing;
 }
 
 .row {
