@@ -2,9 +2,8 @@
 
 .Navbar {
     background-color: $bg-landing;
-    // height: 7rem;
     display: flex;
-    padding-bottom: 3rem;
+    padding-bottom: 1rem;
 
     .brand {
         flex-grow: 1;
@@ -17,7 +16,6 @@
         }
 
         .brand-nav {
-            // position: relative;
 
             a {
                 @include a-style;
