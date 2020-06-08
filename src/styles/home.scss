@@ -1,12 +1,16 @@
 .landingBlock {
-    background-color: $bg-landing;
     min-height: 88vh;
     margin-top: -1px;
 
     .row:nth-child(1) {
-        padding: 4rem 2rem 0rem 10rem;
+        padding: 0rem 2rem 0rem 10rem;
+        display: flex;
+        position: absolute;
+        top: 25%;
 
         div:nth-child(1) {
+            flex: 1;
+            order: 1;
             p {
                 font-size: 8rem;
                 margin: 3rem 0 3rem 0;
@@ -29,9 +33,9 @@
         }
 
         .profilePicture {
-            flex: 1;
+            // flex: 1;
             order: 2;
-            padding: 10rem 10rem 4rem;
+            padding: 10rem 5rem 4rem;
 
             img {
                 width: 100%;
@@ -49,6 +53,7 @@
             padding-top: 23px;
             position: absolute;
             width: 26px;
+            bottom: 50px;
             margin-left: -12px;
             border-left: 3px solid #001f3f;
             border-bottom: 3px solid #001f3f;
@@ -97,6 +102,7 @@
         min-height: 60vh;
         .row:nth-child(1) {
             padding: 4rem 3rem 0rem 3rem;
+            top: 20%;
             div:nth-child(1) {
                 order: 2;
 
@@ -133,6 +139,7 @@
         min-height: 90vh;
         .row:nth-child(1) {
             padding: 4rem 3rem 0rem 3rem;
+            top: 20%;
             div:nth-child(1) {
                 order: 2;
 
