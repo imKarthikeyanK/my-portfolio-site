@@ -13,6 +13,7 @@ function Introduction() {
                     </div>
                 </div>
                 <div className="col">
+                <h1>"Staying Hungry & Foolish"</h1>
                     <p>I'm Karthikeyan.K from Hosur, Tamil Nadu, India. A BE CSE Graduate from PMC TECH, Hosur (Anna University). I'm one of them who always love solving problems and producing solutions. I always love building things and see them work.</p>
                     <p>
                         I'm a dreamer. It was my dream to become a Software Engineer, am Glad that am pursuing my dream now. I always dreamed about making big things and making the world a better place for Living. I'm a singer, I'm an Artist, I'm a ..... etc,. I always beleive that anyone can do anything. All it needs is the patience to know and learn it. I'm a kind of try it, know it, learn it and follow it person. As Steve Jobs said "Put a dent on the Universe", I'm always learning, doing, trying, atleast dreaming about putting my dent on the Universe.
