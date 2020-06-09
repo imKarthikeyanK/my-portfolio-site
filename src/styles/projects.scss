@@ -1,0 +1,25 @@
+.projects {
+    padding: 5rem;
+
+    .pro-card-container {
+        padding: 5rem 5rem 0rem 5rem;
+
+        .pro-card {
+            box-shadow: -5px 3px 30px 2px #a0a0a0;
+            // padding: 2rem;
+
+            .title {
+                background: linear-gradient(45deg, $bg-nav 85%, $land-font-color 15%);
+                padding: 1rem 3rem;
+                color: $white;
+            }
+
+            .description{
+                padding: 2rem;
+                p {
+                    font-size: 1.6rem;
+                }
+            }
+        }
+    }
+}

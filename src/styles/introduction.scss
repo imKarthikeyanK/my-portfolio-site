@@ -25,6 +25,13 @@
         flex: 2;
         padding: 0rem 6rem 0rem;
 
+        h1 {
+            font-size: 5rem;
+            text-align: center;
+            text-decoration: underline;
+            text-decoration-color: $bg-nav;
+        }
+
         p {
             font-size: 2rem;
             color: #001f3f;
@@ -45,17 +52,17 @@
         width: 25rem;
         font-size: 1.6rem;
         font-weight: bold;
-        color: $bg-landing;
+        color: $white;
         border: none;
         letter-spacing: 0.2rem;
-        background-color: $land-font-color;
+        background-color: $bg-nav;
         transition: all 0.45s ease-in-out;
     }
 
     button:hover {
-        border: 5px solid $land-font-color;
+        border: 5px solid $bg-nav;
         background-color: $bg-landing;
-        color: $land-font-color;
+        color: $bg-nav;
         cursor: pointer;
         transition: all 0.45s ease-in-out;
     }
@@ -64,9 +71,9 @@
 @media only screen and (max-width: 769px) {
 
     .introduction {
-    
+
         .col:nth-child(1) {
-    
+
             .profilePicture {
                 padding: 0rem 8rem 3rem 6rem;
             }

@@ -1,5 +1,5 @@
 .footer {
-    background: $land-font-color;
+    background: $bg-nav;
     display: flex;
     flex-wrap: wrap;
 
@@ -22,7 +22,7 @@
             width: 25rem;
             font-size: 1.6rem;
             font-weight: bold;
-            color: $land-font-color;
+            color: $bg-nav;
             margin-top: 6%;
             border: none;
             letter-spacing: 0.2rem;
@@ -31,9 +31,9 @@
 
         .connect-btn:hover {
             border: 5px solid $bg-landing;
-            background-color: $land-font-color;
+            background-color: $bg-nav;
             cursor: pointer;
-            color: $bg-landing;
+            color: $white;
             transition: all 0.45s ease-in-out;
         }
     }

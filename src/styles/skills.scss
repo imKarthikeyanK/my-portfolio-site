@@ -5,9 +5,32 @@
 
     .card-container {
         flex: 1;
-        flex-basis: 25%;
+        flex-basis: 15%;
         text-align: center;
+        padding: 5rem;
 
-        .card {}
+        .card {
+            min-height: 15rem;
+            min-width: 10rem;
+            box-shadow: -3px 3px 20px 1px #808080;
+
+            .image-container {
+                min-height: 15rem;
+                background: $bg-nav;
+
+                img {
+                    width: 100%;
+                }
+            }
+
+            .content-container {
+                padding: 1.5rem;
+
+                p {
+                    font-size: 14px;
+                    text-align: justify;
+                }
+            }
+        }
     }
 }
