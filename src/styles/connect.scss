@@ -1,3 +1,18 @@
-.connect{
+.connect {
+    padding: 5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
     background: $bg-landing-2;
+
+    .social-card-container {
+        width: 46%;
+        padding: 1rem;
+
+        .social-card {
+            background: $bg-social-card;
+            padding: 2rem;
+            display: flex;
+        }
+    }
 }
