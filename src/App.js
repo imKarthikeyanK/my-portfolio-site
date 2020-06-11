@@ -42,17 +42,10 @@ function App() {
       showInNavbar: true
     },
     {
-      pageLink: '/projects',
+      pageLink: '/works',
       view: Projects,
-      displayName: 'Projects',
+      displayName: 'Works',
       animationDelayForNavbar: 0.3,
-      showInNavbar: true
-    },
-    {
-      pageLink: '/gallery',
-      view: Gallery,
-      displayName: 'Gallery',
-      animationDelayForNavbar: 0.4,
       showInNavbar: true
     },
     {
