@@ -20,3 +20,22 @@
     visibility: visible;
     transform: scaleX(1);
 }
+
+@mixin com-button($font-color) {
+    height: 5rem;
+    width: 25rem;
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: $font-color;
+    border: none;
+    letter-spacing: 0.2rem;
+    transition: all 0.45s ease-in-out;
+}
+
+@mixin com-button-hover($border-color, $bg-color) {
+    border: 5px solid $border-color;
+    background-color: $bg-color;
+    cursor: pointer;
+    color: $white;
+    transition: all 0.45s ease-in-out;
+}

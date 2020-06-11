@@ -2,6 +2,7 @@
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    background: $bg-landing-2;
 
     .card-container {
         flex: 1;
@@ -12,11 +13,11 @@
         .card {
             min-height: 15rem;
             min-width: 10rem;
-            box-shadow: -3px 3px 20px 1px #808080;
+            box-shadow: -3px 3px 40px 3px #151515;
 
             .image-container {
                 min-height: 15rem;
-                background: $bg-nav;
+                background: $card-bg-color;
 
                 img {
                     width: 100%;

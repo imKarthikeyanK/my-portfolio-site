@@ -1,21 +1,22 @@
 .projects {
-    padding: 5rem;
-
+    padding: 0rem 5rem 5rem 5rem;
+    background-color: $bg-landing-2;
     .pro-card-container {
         padding: 5rem 5rem 0rem 5rem;
 
         .pro-card {
-            box-shadow: -5px 3px 30px 2px #a0a0a0;
+            box-shadow: -3px 3px 30px 2px #151515;
             // padding: 2rem;
 
             .title {
-                background: linear-gradient(45deg, $bg-nav 85%, $land-font-color 15%);
+                background: linear-gradient(45deg, $bg-nav 85%, $tip-color 15%);
                 padding: 1rem 3rem;
                 color: $white;
             }
 
             .description{
                 padding: 2rem;
+                background: $bg-dec;
                 p {
                     font-size: 1.6rem;
                 }

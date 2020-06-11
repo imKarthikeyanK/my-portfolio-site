@@ -1,6 +1,6 @@
 .introduction {
     // min-height: 100vh;
-    // background-color: $bg-landing;
+    background-color: $bg-landing-2;
     display: flex;
     flex-wrap: wrap;
 
@@ -29,12 +29,12 @@
             font-size: 5rem;
             text-align: center;
             text-decoration: underline;
-            text-decoration-color: $bg-nav;
+            text-decoration-color: $land-underline;
         }
 
         p {
             font-size: 2rem;
-            color: #001f3f;
+            color: $land-font-color;
             text-align: justify;
             text-indent: 10rem;
             word-spacing: 1rem;
@@ -43,28 +43,16 @@
 }
 
 .skills-btn {
-    background-color: $bg-landing;
+    background-color: $bg-landing-2;
     text-align: center;
     padding: 4rem 0rem 6rem;
 
     button {
-        height: 5rem;
-        width: 25rem;
-        font-size: 1.6rem;
-        font-weight: bold;
-        color: $white;
-        border: none;
-        letter-spacing: 0.2rem;
-        background-color: $bg-nav;
-        transition: all 0.45s ease-in-out;
+        @include com-button($bg-nav);
     }
 
     button:hover {
-        border: 5px solid $bg-nav;
-        background-color: $bg-landing;
-        color: $bg-nav;
-        cursor: pointer;
-        transition: all 0.45s ease-in-out;
+        @include com-button-hover($bg-nav, $bg-landing-2);
     }
 }
 

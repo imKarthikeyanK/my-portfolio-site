@@ -18,23 +18,12 @@
         }
 
         .connect-btn {
-            height: 5rem;
-            width: 25rem;
-            font-size: 1.6rem;
-            font-weight: bold;
-            color: $bg-nav;
+            @include com-button($bg-nav);
             margin-top: 6%;
-            border: none;
-            letter-spacing: 0.2rem;
-            transition: all 0.45s ease-in-out;
         }
 
         .connect-btn:hover {
-            border: 5px solid $bg-landing;
-            background-color: $bg-nav;
-            cursor: pointer;
-            color: $white;
-            transition: all 0.45s ease-in-out;
+            @include com-button-hover($bg-landing, $bg-nav);
         }
     }
 }
