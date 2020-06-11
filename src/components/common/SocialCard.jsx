@@ -7,7 +7,7 @@ function SocialCard({ social }) {
             <div className="social-card-container">
                 <div className="social-card">
                     <div className="image">
-                        <img src={social.image} alt="social" />
+                        <img src={social.imageUrl} alt="social" />
                     </div>
                     <div className="cover-text">
                         <p>{social.coverText}</p>
