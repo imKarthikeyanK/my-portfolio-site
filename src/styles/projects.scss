@@ -1,6 +1,7 @@
 .projects {
     padding: 0rem 5rem 5rem 5rem;
     background-color: $bg-landing-2;
+
     .pro-card-container {
         padding: 5rem 5rem 0rem 5rem;
 
@@ -14,11 +15,41 @@
                 color: $white;
             }
 
-            .description{
+            .description {
                 padding: 2rem;
-                background: $bg-dec;
+                // background: $bg-dec;
+
                 p {
-                    font-size: 1.6rem;
+                    font-size: 1.7rem;
+                    margin: 0;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 769px) {
+
+    .projects {
+        padding: 0rem 2.5rem 5rem 2.5rem;
+
+        .pro-card-container {
+            padding: 5rem 0rem 0rem 0rem;
+
+            .pro-card {
+
+                .title {
+                    padding: 1rem 2rem;
+
+                    h1 {
+                        font-weight: 500;
+                    }
+                }
+
+                .description {
+                    p {
+                        font-size: 2rem;
+                    }
                 }
             }
         }
