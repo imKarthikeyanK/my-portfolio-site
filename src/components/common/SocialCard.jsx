@@ -1,18 +1,21 @@
 import React, { Fragment } from 'react';
+import { Link } from 'react-router-dom';
 
 
 function SocialCard({ social }) {
     return (
         <Fragment>
             <div className="social-card-container">
-                <div className="social-card">
-                    <div className="image">
-                        <img src={social.imageUrl} alt="social" />
+                <a href={social.SocialUrl} rel="noopener noreferrer" target="_blank">
+                    <div className="social-card">
+                        <div className={`image ${social.colorClass}`}>
+                            <img src={social.imageUrl} alt="social" />
+                        </div>
+                        <div className="cover-text">
+                            <p>{social.displayUrl}</p>
+                        </div>
                     </div>
-                    <div className="cover-text">
-                        <p>{social.coverText}</p>
-                    </div>
-                </div>
+                </a>
             </div>
         </Fragment>
     )
