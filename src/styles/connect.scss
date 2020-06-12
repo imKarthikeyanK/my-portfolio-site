@@ -4,6 +4,7 @@
     flex-wrap: wrap;
     justify-content: space-between;
     background: $bg-landing-2;
+    min-height: 70vh;
 
     .social-card-container {
         width: 46%;
@@ -11,8 +12,84 @@
 
         .social-card {
             background: $bg-social-card;
-            padding: 2rem;
+            // padding: 2rem;
+            height: 7rem;
             display: flex;
+
+            .image {
+                padding: 1rem;
+                width: 10%;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+
+            .bg-insta {
+                background-color: $bg-insta;
+            }
+
+            .bg-linkedin {
+                background-color: $bg-linkedin;
+            }
+
+            .bg-twitter {
+                background-color: $bg-twitter;
+            }
+
+            .bg-mail {
+                background-color: $bg-mail;
+            }
+
+            .cover-text {
+                padding: .5rem 0rem 0rem 2rem;
+
+                p {
+                    font-size: 2rem;
+                }
+            }
+
+        }
+
+        a {
+            text-decoration: none;
+            color: $land-font-color;
+        }
+    }
+}
+
+@media only screen and (max-width: 769px) {
+
+    .connect {
+        padding: 2rem;
+    
+        .social-card-container {
+            width: 100%;
+            padding: 1rem;
+    
+            .social-card {
+                height: 6rem;
+    
+                .image {
+                    // padding: 1rem;
+                    width: 10%;
+    
+                    // img {
+                    //     width: 100%;
+                    //     height: 100%;
+                    // }
+                }
+
+                .cover-text {
+                    padding: .5rem 0rem 0rem 1rem;
+    
+                    p {
+                        font-size: 1.6rem;
+                    }
+                }
+    
+            }
         }
     }
 }
