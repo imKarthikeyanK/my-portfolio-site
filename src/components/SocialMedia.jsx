@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react';
 import SocialCard from './common/SocialCard';
 import linkedIn from '../static/svg/linkedin.svg';
-import mail from '../static/svg/mail.svg';
+import facebook from '../static/svg/facebook.svg';
 import twitter from '../static/svg/twitter.svg';
 import instagram from '../static/svg/insta.svg';
 
@@ -17,18 +17,18 @@ function SocialMedia() {
             "colorClass": "bg-linkedin"
         },
         {
-            "imageUrl": mail,
-            "SocialUrl": "superkarthi789@gmail.com",
-            "displayUrl": "superkarthi789@gmail.com",
-            "coverText": "Gmail",
-            "colorClass": "bg-mail"
-        },
-        {
             "imageUrl": twitter,
             "SocialUrl": "https://www.twitter.com/imkarthikeyank",
             "displayUrl": "twitter.com/imkarthikeyank",
             "coverText": "Twitter",
             "colorClass": "bg-twitter"
+        },
+        {
+            "imageUrl": facebook,
+            "SocialUrl": "https://www.facebook.com/imkarthikeyank/",
+            "displayUrl": "facebook.com/imkarthikeyank",
+            "coverText": "Facebook",
+            "colorClass": "bg-facebook"
         },
         {
             "imageUrl": instagram,
