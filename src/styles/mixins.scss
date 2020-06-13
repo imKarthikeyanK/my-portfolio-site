@@ -39,3 +39,8 @@
     color: $white;
     transition: all 0.45s ease-in-out;
 }
+
+@mixin con-hover-effect($bg-color) {
+    background: $bg-color;
+    transition: all .45s ease-in-out;
+}
