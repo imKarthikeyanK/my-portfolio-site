@@ -14,42 +14,48 @@ function SocialMedia() {
             "SocialUrl": "https://www.linkedin.com/in/imkarthikeyank",
             "displayUrl": "linkedin.com/in/imkarthikeyank",
             "coverText": "LinkedIn",
-            "colorClass": "bg-linkedin"
+            "colorClass": "bg-linkedin",
+            "hoverClass": "hover-linkedin"
         },
         {
             "imageUrl": twitter,
             "SocialUrl": "https://www.twitter.com/imkarthikeyank",
             "displayUrl": "twitter.com/imkarthikeyank",
             "coverText": "Twitter",
-            "colorClass": "bg-twitter"
+            "colorClass": "bg-twitter",
+            "hoverClass": "hover-twitter"
         },
         {
             "imageUrl": facebook,
             "SocialUrl": "https://www.facebook.com/imkarthikeyank/",
             "displayUrl": "facebook.com/imkarthikeyank",
             "coverText": "Facebook",
-            "colorClass": "bg-facebook"
+            "colorClass": "bg-facebook",
+            "hoverClass": "hover-fb"
         },
         {
             "imageUrl": instagram,
             "SocialUrl": "https://www.instagram.com/karthikeyank_",
             "displayUrl": "instagram.com/karthikeyank_",
             "coverText": "Instagram",
-            "colorClass": "bg-insta"
+            "colorClass": "bg-insta",
+            "hoverClass": "hover-insta"
         },
         {
             "imageUrl": instagram,
             "SocialUrl": "https://www.instagram.com/beingzeros",
             "displayUrl": "instagram.com/beingzeros",
             "coverText": "Instagram",
-            "colorClass": "bg-insta"
+            "colorClass": "bg-insta",
+            "hoverClass": "hover-insta"
         },
         {
             "imageUrl": instagram,
             "SocialUrl": "https://www.instagram.com/initial_touch",
             "displayUrl": "instagram.com/initial_touch",
             "coverText": "Instagram",
-            "colorClass": "bg-insta"
+            "colorClass": "bg-insta",
+            "hoverClass": "hover-insta"
         }
     ]
 
