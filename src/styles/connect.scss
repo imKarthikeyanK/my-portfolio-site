@@ -9,10 +9,11 @@
     .social-card-container {
         width: 46%;
         padding: 1rem;
+        animation: slideUp .8s ease-in-out both;
+        opacity: 0;
 
         .social-card {
             background: $bg-social-card;
-            // padding: 2rem;
             height: 7rem;
             display: flex;
 
@@ -47,18 +48,33 @@
             }
 
             .cover-text {
-                padding: .5rem 0rem 0rem 2rem;
+                padding: .3rem 0rem 0rem 2rem;
 
                 p {
                     font-size: 2rem;
                 }
             }
-
         }
 
         a {
             text-decoration: none;
             color: $land-font-color;
+        }
+
+        .hover-fb:hover {
+            @include con-hover-effect($bg-facebook);
+        }
+
+        .hover-insta:hover {
+            @include con-hover-effect($bg-insta);
+        }
+
+        .hover-linkedin:hover {
+            @include con-hover-effect($bg-linkedin);
+        }
+
+        .hover-twitter:hover {
+            @include con-hover-effect($bg-twitter);
         }
     }
 }
@@ -67,33 +83,37 @@
 
     .connect {
         padding: 2rem;
-    
+
         .social-card-container {
             width: 100%;
             padding: 1rem;
-    
+
             .social-card {
                 height: 6rem;
-    
+
                 .image {
-                    // padding: 1rem;
                     width: 10%;
-    
-                    // img {
-                    //     width: 100%;
-                    //     height: 100%;
-                    // }
                 }
 
                 .cover-text {
                     padding: .5rem 0rem 0rem 1rem;
-    
+
                     p {
                         font-size: 1.6rem;
                     }
                 }
-    
+
             }
         }
+    }
+}
+
+@keyframes slideUp {
+    0%{
+        transform: translate3d(0, 40px, 0);
+    }
+    100%{
+        transform: translate3d(0, 0, 0);
+        opacity: 1;
     }
 }
