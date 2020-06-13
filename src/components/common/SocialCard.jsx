@@ -7,11 +7,11 @@ function SocialCard({ social }) {
         <Fragment>
             <div className="social-card-container">
                 <a href={social.SocialUrl} rel="noopener noreferrer" target="_blank">
-                    <div className="social-card">
+                    <div className={`social-card ${social.hoverClass}`}>
                         <div className={`image ${social.colorClass}`}>
                             <img src={social.imageUrl} alt="social" />
                         </div>
-                        <div className="cover-text">
+                        <div className="cover-text insta">
                             <p>{social.displayUrl}</p>
                         </div>
                     </div>
