@@ -7,6 +7,7 @@
         display: flex;
         position: absolute;
         top: 25%;
+        @include slideUp;
 
         div:nth-child(1) {
             flex: 1;
@@ -60,8 +61,8 @@
             width: 26px;
             bottom: 50px;
             margin-left: -12px;
-            border-left: 3px solid #001f3f;
-            border-bottom: 3px solid #001f3f;
+            border-left: 3px solid $land-font-color;
+            border-bottom: 3px solid $land-font-color;
             transform: rotate(-45deg);
             animation: sdb05 1.5s infinite;
             box-sizing: border-box;
