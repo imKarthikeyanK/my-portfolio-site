@@ -44,3 +44,19 @@
     background: $bg-color;
     transition: all .45s ease-in-out;
 }
+
+@mixin slideUp {
+    animation: slideUp .7s ease-in-out both;
+    opacity: 0;
+}
+
+@keyframes slideUp {
+    0% {
+        transform: translate3d(0, 40px, 0);
+    }
+
+    100% {
+        transform: translate3d(0, 0, 0);
+        opacity: 1;
+    }
+}
