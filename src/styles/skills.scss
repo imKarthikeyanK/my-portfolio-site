@@ -9,6 +9,7 @@
         flex-basis: 15%;
         text-align: center;
         padding: 5rem;
+        @include slideUp;
 
         .card {
             min-height: 15rem;

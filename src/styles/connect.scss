@@ -9,8 +9,7 @@
     .social-card-container {
         width: 46%;
         padding: 1rem;
-        animation: slideUp .8s ease-in-out both;
-        opacity: 0;
+        @include slideUp;
 
         .social-card {
             background: $bg-social-card;
@@ -105,15 +104,5 @@
 
             }
         }
-    }
-}
-
-@keyframes slideUp {
-    0%{
-        transform: translate3d(0, 40px, 0);
-    }
-    100%{
-        transform: translate3d(0, 0, 0);
-        opacity: 1;
     }
 }
