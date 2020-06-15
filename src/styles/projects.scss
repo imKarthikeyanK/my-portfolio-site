@@ -14,6 +14,16 @@
                 background: linear-gradient(45deg, $bg-nav 85%, $tip-color 15%);
                 padding: 1rem 3rem;
                 color: $white;
+                display: flex;
+
+                .proicon {
+                    height: 2rem;
+                    padding: 1.6rem;
+
+                    img{
+                        height: 2rem;
+                    }
+                }
             }
 
             .description {
