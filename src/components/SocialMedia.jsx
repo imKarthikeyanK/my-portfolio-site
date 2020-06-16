@@ -4,6 +4,7 @@ import linkedIn from '../static/svg/linkedin.svg';
 import facebook from '../static/svg/facebook.svg';
 import twitter from '../static/svg/twitter.svg';
 import instagram from '../static/svg/insta.svg';
+import GitHub from '../static/images/GitHub-Mark-64px.png';
 
 
 function SocialMedia() {
@@ -16,6 +17,14 @@ function SocialMedia() {
             "coverText": "LinkedIn",
             "colorClass": "bg-linkedin",
             "hoverClass": "hover-linkedin"
+        },
+        {
+            "imageUrl": GitHub,
+            "SocialUrl": "https://github.com/imKKK",
+            "displayUrl": "github.com/imKKK",
+            "coverText": "GitHub",
+            "colorClass": "bg-github",
+            "hoverClass": "hover-github"
         },
         {
             "imageUrl": twitter,
