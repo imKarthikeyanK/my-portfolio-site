@@ -46,6 +46,10 @@
                 background-color: $bg-facebook;
             }
 
+            .bg-github {
+                background-color: $bg-github;
+            }
+
             .cover-text {
                 padding: .3rem 0rem 0rem 2rem;
 
@@ -74,6 +78,11 @@
 
         .hover-twitter:hover {
             @include con-hover-effect($bg-twitter);
+        }
+
+        .hover-github:hover {
+            @include con-hover-effect($bg-github);
+            color: $bg-github-dark;
         }
     }
 }
