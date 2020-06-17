@@ -8,11 +8,10 @@
 
         .pro-card {
             box-shadow: -3px 3px 30px 2px #151515;
-            // padding: 2rem;
 
             .title {
                 background: linear-gradient(45deg, $bg-nav 85%, $tip-color 15%);
-                padding: 1rem 3rem;
+                padding: 1rem 1rem;
                 color: $white;
                 display: flex;
 
@@ -24,11 +23,16 @@
                         height: 2rem;
                     }
                 }
+
+                .protitle {
+                    h1{
+                        font-weight: 400;
+                    }
+                }
             }
 
             .description {
                 padding: 2rem;
-                // background: $bg-dec;
 
                 p {
                     font-size: 1.7rem;
@@ -38,6 +42,7 @@
         }
     }
 }
+
 
 @media only screen and (max-width: 769px) {
 
@@ -50,11 +55,7 @@
             .pro-card {
 
                 .title {
-                    padding: 1rem 2rem;
-
-                    h1 {
-                        font-weight: 500;
-                    }
+                    padding: 1rem 4rem 0rem 0rem;
                 }
 
                 .description {
