@@ -2,6 +2,7 @@
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    min-height: 100vh;
     background: $bg-landing-2;
 
     .card-container {
@@ -31,6 +32,27 @@
                 p {
                     font-size: 14px;
                     text-align: justify;
+                }
+            }
+        }
+    }
+}
+
+
+@media only screen and (max-width: 769px) {
+
+    .skillsCard {
+
+        padding: 2rem 0 2rem 0;
+    
+        .card-container {
+            padding: 2.2rem;
+    
+            .card {
+                min-height: 5rem;
+    
+                .image-container {
+                    min-height: 8rem;
                 }
             }
         }
