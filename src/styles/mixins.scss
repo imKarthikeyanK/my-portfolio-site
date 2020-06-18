@@ -50,6 +50,13 @@
     opacity: 0;
 }
 
+@mixin pro-card-p {
+    font-size: 1.7rem;
+    margin: 0;
+    padding: .5rem;
+    text-align: justify;
+}
+
 @keyframes slideUp {
     0% {
         transform: translate3d(0, 40px, 0);
