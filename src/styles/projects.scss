@@ -1,102 +1,121 @@
 .projects {
-    padding: 0rem 5rem 5rem 5rem;
+    padding: 0rem 5rem 0rem 5rem;
     background-color: $bg-landing-2;
 
-    .pro-card-container {
-        padding: 0rem 5rem 0rem 5rem;
+    .projects-container {
         @include slideUp;
 
-        .pro-card {
-            box-shadow: -3px 3px 30px 2px #151515;
+        .pro-card-container {
+            padding: 0rem 5rem 5rem 5rem;
 
-            .title {
-                background: linear-gradient(45deg, $bg-nav 85%, $tip-color 15%);
-                padding: 1rem 1rem;
-                color: $white;
-                display: flex;
+            .pro-card {
+                box-shadow: -3px 3px 30px 2px #151515;
 
-                .proicon {
-                    height: 2rem;
-                    padding: 1.6rem;
+                .title {
+                    background: linear-gradient(45deg, $bg-nav 85%, $tip-color 15%);
+                    padding: 1rem 1rem;
+                    color: $white;
+                    display: flex;
 
-                    img {
+                    .proicon {
                         height: 2rem;
+                        padding: 1.6rem;
+
+                        img {
+                            height: 2rem;
+                        }
+                    }
+
+                    .protitle {
+                        h1 {
+                            font-weight: 400;
+                        }
                     }
                 }
 
-                .protitle {
-                    h1 {
-                        font-weight: 400;
+                .description {
+                    padding: 2.5rem;
+                    background: $bg-social-card;
+
+                    li {
+                        @include pro-card-p;
                     }
                 }
             }
+        }
 
-            .description {
-                padding: 2.5rem;
-                background: $bg-social-card;
+        .div-title {
+            padding: 0rem 2rem 3rem;
+            text-align: center;
 
-                li {
-                    font-size: 1.7rem;
-                    margin: 0;
-                    padding: .5rem;
-                    text-align: justify;
-                }
+            h1 {
+                margin: 0 !important;
+                letter-spacing: .1rem;
+                font-weight: 500;
             }
         }
     }
 }
 
 .experience {
-    padding: 5rem 5rem 0rem 5rem;
+    padding: 4rem 5rem 0rem 5rem;
     background-color: $bg-landing-2;
 
-    .experience-card {
-        padding: 0 5rem 5rem 5rem;
-        width: 45%;
-        .exp-card {
-            box-shadow: -3px 3px 30px 2px #151515;
-            background: $bg-social-card;
+    .experience-container {
+        @include slideUp;
 
-            .title {
-                padding: 1rem 0rem 0rem 2rem;
-                color: $white;
+        .experience-card {
+            padding: 0 5rem 5rem 5rem;
+            width: 45%;
 
-                h1 {
-                    font-weight: 400;
+            .exp-card {
+                box-shadow: -3px 3px 30px 2px #151515;
+                background: linear-gradient(45deg, $bg-nav, $bg-landing-2);
+
+                .title {
+                    padding: 1rem 0rem 0rem 3rem;
+                    color: $white;
+
+                    h1 {
+                        font-weight: 400;
+                    }
+                }
+
+                .company {
+                    padding-left: 4.5rem;
+
+                    h2 {
+                        @include pro-card-p;
+                        font-weight: 400;
+                    }
+                }
+
+                .work-range {
+                    padding: 1rem 0 0rem 4.5rem;
+
+                    p {
+                        @include pro-card-p;
+                    }
+                }
+
+                .work-location {
+                    padding: 1rem 0 1.8rem 4.7rem;
+
+                    p {
+                        @include pro-card-p;
+                    }
                 }
             }
+        }
 
-            .company {
-                padding-left: 1.5rem;
-                h2 {
-                    font-size: 1.8rem;
-                    margin: 0;
-                    padding: .5rem;
-                    text-align: justify;
-                    font-weight: 400;
-                }
-            }
+        .div-title {
+            padding: 0rem 2rem 4rem;
+            text-align: center;
 
-            .work-range {
-                padding: 1rem 0 0rem 1.5rem;
-
-                p {
-                    font-size: 1.7rem;
-                    margin: 0;
-                    padding: .5rem;
-                    text-align: justify;
-                }
-            }
-
-            .work-location {
-                padding: 1rem 0 1.5rem 1.5rem;
-
-                p {
-                    font-size: 1.7rem;
-                    margin: 0;
-                    padding: .5rem;
-                    text-align: justify;
-                }
+            h1 {
+                margin: 0 !important;
+                letter-spacing: .1rem;
+                font-weight: 500;
             }
         }
     }
@@ -104,24 +123,62 @@
 
 
 @media only screen and (max-width: 769px) {
-
     .projects {
         padding: 0rem 2.5rem 5rem 2.5rem;
 
-        .pro-card-container {
-            padding: 5rem 0rem 0rem 0rem;
+        .projects-container {
+            .pro-card-container {
+                padding: 5rem 0rem 0rem 0rem;
 
-            .pro-card {
+                .pro-card {
 
-                .title {
-                    padding: 1rem 4rem 0rem 0rem;
-                }
+                    .title {
+                        padding: 1rem 4rem 0rem 0rem;
+                    }
 
-                .description {
-                    p {
-                        font-size: 2rem;
+                    .description {
+                        p {
+                            font-size: 2rem;
+                        }
                     }
                 }
+            }
+
+            .div-title {
+                padding: 0rem 2rem 0rem;
+            }
+        }
+    }
+
+    .experience {
+        padding: 4rem 2rem 0rem 2rem;
+
+        .experience-container {
+            .experience-card {
+                padding: 0 0rem 5rem 0rem;
+                width: 100%;
+
+                .exp-card {
+                    .title {
+                        padding: 1rem 0rem 0rem 2rem;
+                    }
+
+                    .work-location {
+                        padding: 1rem 0 1.8rem 2rem;
+                    }
+
+                    .work-range {
+                        padding: 1rem 0 0rem 2rem;
+                    }
+
+                    .company {
+                        padding-left: 2rem;
+                    }
+                }
+            }
+
+            .div-title {
+                padding: 0rem 2rem 4rem;
             }
         }
     }
