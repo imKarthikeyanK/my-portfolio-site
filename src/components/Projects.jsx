@@ -53,9 +53,9 @@ const projects = [
 
 const Experience = [
     {
-        company: "Prematix Software Solution",
+        company: "Prematix Software Solution, Hosur",
         workRange: "June 2018 - Still",
-        workArea: "Full Stack Development (Python, React)",
+        workArea: "☆ Full Stack Development (Python, React)",
         workLocation: "Hosur, Tamil Nadu, INDIA"
     }
 ]
@@ -64,14 +64,24 @@ function Projects() {
     return (
         <Fragment>
             <div className="experience">
-                {Experience.map((experience, index) => (
-                    <ExperienceCard key={index} experience={experience} />
-                ))}
+                <div className="experience-container">
+                    <div className="div-title">
+                        <h1>EXPERIENCE</h1>
+                    </div>
+                    {Experience.map((experience, index) => (
+                        <ExperienceCard key={index} experience={experience} />
+                    ))}
+                </div>
             </div>
             <div className="projects">
-                {projects.map((project, index) => (
-                    <ProCard key={index} project={project} />
-                ))}
+                <div className="projects-container">
+                    <div className="div-title">
+                        <h1>PROJECTS</h1>
+                    </div>
+                    {projects.map((project, index) => (
+                        <ProCard key={index} project={project} />
+                    ))}
+                </div>
             </div>
         </Fragment>
     )
