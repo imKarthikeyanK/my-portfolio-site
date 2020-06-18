@@ -1,54 +1,76 @@
 import React, { Fragment } from 'react';
 import ProCard from './common/ProCard';
+import ExperienceCard from './common/ExperienceCard';
 
 const projects = [
     {
-        name: "Development of Speech to text transcriber Application Using Mozilla DeepSpeech",
+        name: "Speech To Text Transcriber Using Mozilla Deep Speech Open Source Models (ML)",
         description: [
-            "I'm a dreamer. It was my dream to become a Software Engineer, am Glad that am pursuing my dream now. I always dreamed about making big things and making the world a better place for Living. I'm a singer, I'm an Artist, I'm a ..... etc,. I always beleive that anyone can do anything. All it needs is the patience to know and learn it. I'm a kind of try it, know it, learn it and follow it person. As Steve Jobs said 'Put a dent on the Universe', I'm always learning, doing, trying, atleast dreaming about putting my dent on the Universe."
+            "Using Mozilla’s Open Source Pre Trained Deep Speech Models, built Flask Application to Transcribe Customer support audio Speeches into Texts Logs.",
+            "Trained and Fine-tuned the model with Custom Generated Dataset for Indian Accent.",
+            "Involved Various Machine Learning Practices including data analysis, data cleaning, data preparation, automating data cleaning, preparation pipeline which takes in a long audio of various formats and converts it into 16000 Hz, 16bit channel & into WAV file and crops the WAV into small chunks wherever it hits silence in audio and generating text logs for the chunks using pre trained models in a Linux environment"
         ]
     },
     {
-        name: "Project Management System",
+        name: "Project Management System (Internal Flask Application)",
         description: [
-            "I'm a dreamer. It was my dream to become a Software Engineer, am Glad that am pursuing my dream now. I always dreamed about making big things and making the world a better place for Living. I'm a singer, I'm an Artist, I'm a ..... etc,. I always beleive that anyone can do anything. All it needs is the patience to know and learn it. I'm a kind of try it, know it, learn it and follow it person. As Steve Jobs said 'Put a dent on the Universe', I'm always learning, doing, trying, atleast dreaming about putting my dent on the Universe."
+            "Built end to end Flask Application which is one of the major applications used by 50+ employees in the current firm.",
+            "The Product helps the firm to Manage and Maintain Projects, Day to Day Tasks & Activity Allocation, Time Sheet Entry, Work Report Generation and to Track Works and Productivity of Developers.",
+            "With various other features including Automated weekly Mail Notification to send detailed summary of previous week timesheet and productivity report, bulk time sheet entry, Cumulative Dashboard & Multi User Panels, etc."
         ]
     },
     {
-        name: "IRCTC Tourism Application",
+        name: "IRCTC Tourism Application (e-Commerce)",
         description: [
-            "I'm a dreamer. It was my dream to become a Software Engineer, am Glad that am pursuing my dream now. I always dreamed about making big things and making the world a better place for Living. I'm a singer, I'm an Artist, I'm a ..... etc,. I always beleive that anyone can do anything. All it needs is the patience to know and learn it. I'm a kind of try it, know it, learn it and follow it person. As Steve Jobs said 'Put a dent on the Universe', I'm always learning, doing, trying, atleast dreaming about putting my dent on the Universe."
+            "Built complete scalable Back end REST API for Tourism Project which powers Web and Android Applications in front end.",
+            "Built with various features including Automated best & low cost Tour Plans suggestion service using start & end locations, Automatic generation of Travel itinerary for single & round trips and booking tickets with all kind of travel services with best possible cost and time.",
+            "Generation of PDF travel itinerary Report with complete tour plan details and schedule. Plan covers from Taxis, Hotels, bus, trains to tourist spots & guides.",
+            "Built the end to end application and supported the API consumers throughout the project"
         ]
     },
     {
-        name: "Face Recognition System",
+        name: "Face Recognition System (Machine Learning, Web Applications, Insight Face, OpenCV)",
         description: [
-            "I'm a dreamer. It was my dream to become a Software Engineer, am Glad that am pursuing my dream now. I always dreamed about making big things and making the world a better place for Living. I'm a singer, I'm an Artist, I'm a ..... etc,. I always beleive that anyone can do anything. All it needs is the patience to know and learn it. I'm a kind of try it, know it, learn it and follow it person. As Steve Jobs said 'Put a dent on the Universe', I'm always learning, doing, trying, atleast dreaming about putting my dent on the Universe."
+            "As part of the team contributed well to the core Face recognition engine.",
+            "Helped the team by tweaking an algorithm which improved the recognition speed by 50%, tweaked pre training method which improved the training performance by 15%, fine-tuned recognition parameters which improved recognition accuracy up to 15%.",
+            "Built front end web apps using React for use cases such as Employee attendance, Visitor management, VIP management and Criminal Identification.",
+            "Built an algorithm to have a single backend file system organization and storage functionality & handle duplicate entries and abandoned registration files for all the above use cases."
         ]
     },
     {
         name: "IRCTC Events Management",
         description: [
-            "I'm a dreamer. It was my dream to become a Software Engineer, am Glad that am pursuing my dream now. I always dreamed about making big things and making the world a better place for Living. I'm a singer, I'm an Artist, I'm a ..... etc,. I always beleive that anyone can do anything. All it needs is the patience to know and learn it. I'm a kind of try it, know it, learn it and follow it person. As Steve Jobs said 'Put a dent on the Universe', I'm always learning, doing, trying, atleast dreaming about putting my dent on the Universe."
+            "Built scalable backend REST API services for the web and handled the front end Event registration pipeline with React which features series of forms with fully customizable event scheduling feature & handles event booking feature with React & provided API support for the Consumers"
         ]
     },
     {
         name: "& More",
         description: [
-            "I'm a dreamer. It was my dream to become a Software Engineer, am Glad that am pursuing my dream now. I always dreamed about making big things and making the world a better place for Living. I'm a singer, I'm an Artist, I'm a ..... etc,. I always beleive that anyone can do anything. All it needs is the patience to know and learn it. I'm a kind of try it, know it, learn it and follow it person. As Steve Jobs said 'Put a dent on the Universe', I'm always learning, doing, trying, atleast dreaming about putting my dent on the Universe."
+            "Contributed to 6+ more Projects in API development, DBMS, React web App Development, Chat bots development of various use cases and WhatsApp hook using twilio"
         ]
+    }
+]
+
+const Experience = [
+    {
+        company: "Prematix Software Solution",
+        workRange: "June 2018 - Still",
+        workArea: "Full Stack Development (Python, React)",
+        workLocation: "Hosur, Tamil Nadu, INDIA"
     }
 ]
 
 function Projects() {
     return (
         <Fragment>
-            {/* <div className="pro-intro">
-            <h1></h1>
-            </div> */}
+            <div className="experience">
+                {Experience.map((experience, index) => (
+                    <ExperienceCard key={index} experience={experience} />
+                ))}
+            </div>
             <div className="projects">
                 {projects.map((project, index) => (
-                    <ProCard project={project} />
+                    <ProCard key={index} project={project} />
                 ))}
             </div>
         </Fragment>
