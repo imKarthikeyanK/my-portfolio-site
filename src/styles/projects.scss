@@ -3,7 +3,7 @@
     background-color: $bg-landing-2;
 
     .pro-card-container {
-        padding: 5rem 5rem 0rem 5rem;
+        padding: 0rem 5rem 0rem 5rem;
         @include slideUp;
 
         .pro-card {
@@ -19,24 +19,83 @@
                     height: 2rem;
                     padding: 1.6rem;
 
-                    img{
+                    img {
                         height: 2rem;
                     }
                 }
 
                 .protitle {
-                    h1{
+                    h1 {
                         font-weight: 400;
                     }
                 }
             }
 
             .description {
-                padding: 2rem;
+                padding: 2.5rem;
+                background: $bg-social-card;
+
+                li {
+                    font-size: 1.7rem;
+                    margin: 0;
+                    padding: .5rem;
+                    text-align: justify;
+                }
+            }
+        }
+    }
+}
+
+.experience {
+    padding: 5rem 5rem 0rem 5rem;
+    background-color: $bg-landing-2;
+
+    .experience-card {
+        padding: 0 5rem 5rem 5rem;
+        width: 45%;
+        .exp-card {
+            box-shadow: -3px 3px 30px 2px #151515;
+            background: $bg-social-card;
+
+            .title {
+                padding: 1rem 0rem 0rem 2rem;
+                color: $white;
+
+                h1 {
+                    font-weight: 400;
+                }
+            }
+
+            .company {
+                padding-left: 1.5rem;
+                h2 {
+                    font-size: 1.8rem;
+                    margin: 0;
+                    padding: .5rem;
+                    text-align: justify;
+                    font-weight: 400;
+                }
+            }
+
+            .work-range {
+                padding: 1rem 0 0rem 1.5rem;
 
                 p {
                     font-size: 1.7rem;
                     margin: 0;
+                    padding: .5rem;
+                    text-align: justify;
+                }
+            }
+
+            .work-location {
+                padding: 1rem 0 1.5rem 1.5rem;
+
+                p {
+                    font-size: 1.7rem;
+                    margin: 0;
+                    padding: .5rem;
+                    text-align: justify;
                 }
             }
         }
