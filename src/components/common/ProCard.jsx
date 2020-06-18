@@ -16,7 +16,10 @@ function ProCard({ project }) {
                         </div>
                     </div>
                     <div className="description">
-                        <p>{project.description}</p>
+                        {/* <p>{project.description}</p> */}
+                        {project.description.map((description, index) => (
+                            <li key={index}>{description}</li>
+                        ))}
                     </div>
                 </div>
             </div>
