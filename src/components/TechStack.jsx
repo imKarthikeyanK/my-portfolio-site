@@ -90,7 +90,7 @@ function TechStack() {
             <div className="skillsCard">
                 {
                     skills.map((skill, index) => (
-                        <Card skills={skill} />
+                        <Card key={index} skills={skill} />
                     ))
                 }
             </div>
