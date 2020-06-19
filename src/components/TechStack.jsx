@@ -1,92 +1,135 @@
 import React, { Fragment } from 'react';
 import Card from './common/cards';
+import python from '../static/images/python.png';
+import react from '../static/images/react.png';
+import mysql from '../static/images/mysql.png';
+import sqlserver from '../static/images/sqlserver1.png';
+import html from '../static/images/html.png';
+import css from '../static/images/css.png';
+import javascript from '../static/images/javascript.png';
+import flask from '../static/images/flask.png';
+import django from '../static/images/django.png';
+import jquery from '../static/images/jquery.png';
+import mongodb from '../static/images/mongodb.png';
+import sass from '../static/images/sass.png';
+import cpro from '../static/images/cpro.png';
+import cplus from '../static/images/cplus.png';
+import java from '../static/images/java.png';
+import bootstrap from '../static/images/bootstrap.png';
+import git from '../static/images/git.png';
+import aws from '../static/images/aws.png';
+import msof from '../static/images/msof.png';
+import ps from '../static/images/ps.png';
 
 const skills = [
     {
         skill: "Python",
-        image: "",
-        description: "In the growing world, I always wondered about the impact that the software industrie has put on the development of the cutting edge technology powered Living"
+        image: python,
+        description: ""
     },
     {
-        skill: "Python",
-        image: "",
-        description: "In the growing world, I always wondered about the impact that the software industrie has put on the development of the cutting edge technology powered Living"
+        skill: "react",
+        image: react,
+        description: ""
     },
     {
-        skill: "Python",
-        image: "",
-        description: "In the growing world, I always wondered about the impact that the software industrie has put on the development of the cutting edge technology powered Living"
+        skill: "mysql",
+        image: mysql,
+        description: ""
     },
     {
-        skill: "Python",
-        image: "",
-        description: "In the growing world, I always wondered about the impact that the software industrie has put on the development of the cutting edge technology powered Living"
+        skill: "sqlserver",
+        image: sqlserver,
+        description: ""
     },
     {
-        skill: "Python",
-        image: "",
-        description: "In the growing world, I always wondered about the impact that the software industrie has put on the development of the cutting edge technology powered Living"
+        skill: "mongodb",
+        image: mongodb,
+        description: ""
     },
     {
-        skill: "Python",
-        image: "",
-        description: "In the growing world, I always wondered about the impact that the software industrie has put on the development of the cutting edge technology powered Living"
+        skill: "html",
+        image: html,
+        description: ""
     },
     {
-        skill: "Python",
-        image: "",
-        description: "In the growing world, I always wondered about the impact that the software industrie has put on the development of the cutting edge technology powered Living"
+        skill: "css",
+        image: css,
+        description: ""
     },
     {
-        skill: "Python",
-        image: "",
-        description: "In the growing world, I always wondered about the impact that the software industrie has put on the development of the cutting edge technology powered Living"
+        skill: "javascript",
+        image: javascript,
+        description: ""
     },
     {
-        skill: "Python",
-        image: "",
-        description: "In the growing world, I always wondered about the impact that the software industrie has put on the development of the cutting edge technology powered Living"
+        skill: "flask",
+        image: flask,
+        description: ""
     },
     {
-        skill: "Python",
-        image: "",
-        description: "In the growing world, I always wondered about the impact that the software industrie has put on the development of the cutting edge technology powered Living"
+        skill: "django",
+        image: django,
+        description: ""
     },
     {
-        skill: "Python",
-        image: "",
-        description: "In the growing world, I always wondered about the impact that the software industrie has put on the development of the cutting edge technology powered Living"
+        skill: "bootstrap",
+        image: bootstrap,
+        description: ""
     },
     {
-        skill: "Python",
-        image: "",
-        description: "In the growing world, I always wondered about the impact that the software industrie has put on the development of the cutting edge technology powered Living"
+        skill: "sass",
+        image: sass,
+        description: ""
     },
     {
-        skill: "Python",
-        image: "",
-        description: "In the growing world, I always wondered about the impact that the software industrie has put on the development of the cutting edge technology powered Living"
+        skill: "jquery",
+        image: jquery,
+        description: ""
     },
     {
-        skill: "Python",
-        image: "",
-        description: "In the growing world, I always wondered about the impact that the software industrie has put on the development of the cutting edge technology powered Living"
+        skill: "git",
+        image: git,
+        description: ""
     },
     {
-        skill: "Python",
-        image: "",
-        description: "In the growing world, I always wondered about the impact that the software industrie has put on the development of the cutting edge technology powered Living"
+        skill: "aws",
+        image: aws,
+        description: ""
     },
     {
-        skill: "Python",
-        image: "",
-        description: "In the growing world, I always wondered about the impact that the software industrie has put on the development of the cutting edge technology powered Living"
+        skill: "cpro",
+        image: cpro,
+        description: ""
+    },
+    {
+        skill: "cplus",
+        image: cplus,
+        description: ""
+    },
+    {
+        skill: "java",
+        image: java,
+        description: ""
+    },
+    {
+        skill: "msof",
+        image: msof,
+        description: ""
+    },
+    {
+        skill: "ps",
+        image: ps,
+        description: ""
     }
 ]
 
 function TechStack() {
     return (
         <Fragment>
+            <div className="div-title">
+                <h1>THE STACKS AM WORKING WITH</h1>
+            </div>
             <div className="skillsCard">
                 {
                     skills.map((skill, index) => (
