@@ -1,6 +1,8 @@
 import React, { Fragment } from 'react';
 import ProCard from './common/ProCard';
 import ExperienceCard from './common/ExperienceCard';
+import ImageCard from './common/imageCard';
+import StayHungry from '../static/images/stay-hungry.jpg';
 
 const projects = [
     {
@@ -54,9 +56,15 @@ const projects = [
 const Experience = [
     {
         company: "Prematix Software Solution, Hosur",
-        workRange: "June 2018 - Still",
+        workRange: "June 2018 - Still (2 Years)",
         workArea: "☆ Full Stack Development (Python, React)",
         workLocation: "Hosur, Tamil Nadu, INDIA"
+    },
+    {
+        company: "image",
+        workRange: "",
+        workArea: StayHungry,
+        workLocation: "stay hungry stay foolish"
     }
 ]
 
@@ -68,9 +76,13 @@ function Projects() {
                     <div className="div-title">
                         <h1>EXPERIENCE</h1>
                     </div>
-                    {Experience.map((experience, index) => (
-                        <ExperienceCard key={index} experience={experience} />
-                    ))}
+                    <div className="data-items">
+                        {Experience.map((experience, index) => (
+                            experience.company !== "image" ?
+                                <ExperienceCard key={index} experience={experience} />
+                                : <ImageCard key={index} image={experience} />
+                        ))}
+                    </div>
                 </div>
             </div>
             <div className="projects">
