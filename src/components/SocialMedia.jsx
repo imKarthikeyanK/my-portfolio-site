@@ -70,6 +70,9 @@ function SocialMedia() {
 
     return (
         <Fragment>
+            <div className="div-title">
+                <h1>FIND ME HERE</h1>
+            </div>
             <div className="connect">
                 {social.map((socialItem, index) => (
                     <SocialCard key={index} social={socialItem} />
