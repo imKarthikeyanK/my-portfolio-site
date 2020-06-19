@@ -87,6 +87,24 @@
     }
 }
 
+.div-title {
+    padding: 5rem 2rem 0rem;
+    text-align: center;
+    background-color: $bg-landing-2;
+
+    h1 {
+        margin: 0 !important;
+        letter-spacing: .1rem;
+        font-weight: 500;
+        @include slideUp;
+
+        &::first-letter {
+            text-decoration: overline;
+            text-decoration-color: $land-underline;
+        }
+    }
+}
+
 @media only screen and (max-width: 769px) {
 
     .connect {
