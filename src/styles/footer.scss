@@ -25,6 +25,19 @@
         .connect-btn:hover {
             @include com-button-hover($bg-landing, $bg-nav);
         }
+
+        .deploy {
+            width: 13rem;
+            margin: auto;
+
+            img {
+                width: 100%;
+            }
+
+            p {
+                margin: 0;
+            }
+        }
     }
 }
 
