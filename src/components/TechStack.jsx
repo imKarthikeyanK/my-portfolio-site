@@ -1,5 +1,7 @@
 import React, { Fragment } from 'react';
 import Card from './common/cards';
+import { Link } from 'react-router-dom';
+import { Helmet } from 'react-helmet';
 import python from '../static/images/python.png';
 import react from '../static/images/react.png';
 import mysql from '../static/images/mysql.png';
@@ -127,6 +129,9 @@ const skills = [
 function TechStack() {
     return (
         <Fragment>
+            <Helmet>
+                <title>KKK | Tech Stacks</title>
+            </Helmet>
             <div className="div-title">
                 <h1>THE STACKS AM WORKING WITH</h1>
             </div>
@@ -136,6 +141,11 @@ function TechStack() {
                         <Card key={index} skills={skill} />
                     ))
                 }
+            </div>
+            <div className="skills-btn">
+                <Link to={'/works'}>
+                    <button type="button">WORKS</button>
+                </Link>
             </div>
         </Fragment>
     )
