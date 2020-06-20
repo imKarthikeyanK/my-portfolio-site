@@ -2,6 +2,8 @@ import React, { Fragment } from 'react';
 import ProCard from './common/ProCard';
 import ExperienceCard from './common/ExperienceCard';
 import ImageCard from './common/imageCard';
+import { Link } from 'react-router-dom';
+import { Helmet } from 'react-helmet';
 import StayHungry from '../static/images/stay-hungry.jpg';
 
 const projects = [
@@ -71,6 +73,9 @@ const Experience = [
 function Projects() {
     return (
         <Fragment>
+            <Helmet>
+                <title>KKK | Projects</title>
+            </Helmet>
             <div className="experience">
                 <div className="experience-container">
                     <div className="div-title">
@@ -94,6 +99,11 @@ function Projects() {
                         <ProCard key={index} project={project} />
                     ))}
                 </div>
+            </div>
+            <div className="skills-btn">
+                <Link to={'/skills'}>
+                    <button type="button">SKILLS</button>
+                </Link>
             </div>
         </Fragment>
     )
