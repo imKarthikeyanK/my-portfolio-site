@@ -1,5 +1,6 @@
 import React, { Fragment } from 'react';
 import SocialCard from './common/SocialCard';
+import { Helmet } from 'react-helmet';
 import linkedIn from '../static/svg/linkedin.svg';
 import facebook from '../static/svg/facebook.svg';
 import twitter from '../static/svg/twitter.svg';
@@ -70,6 +71,9 @@ function SocialMedia() {
 
     return (
         <Fragment>
+            <Helmet>
+                <title>KKK | Connect</title>
+            </Helmet>
             <div className="div-title">
                 <h1>FIND ME HERE</h1>
             </div>
