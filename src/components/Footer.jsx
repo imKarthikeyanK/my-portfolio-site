@@ -1,6 +1,7 @@
 import React, { Fragment } from 'react';
 import GitImage from '../static/images/GitHub-Mark-Light-64px.png';
 import { Link } from 'react-router-dom';
+import aws from '../static/images/awsl.png';
 
 
 function Footer() {
@@ -15,6 +16,12 @@ function Footer() {
                     <Link to={'/connect'}>
                         <button type="button" className="connect-btn">CONNECT</button>
                     </Link>
+                </div>
+                <div className="col">
+                    <div className="deploy">
+                        <img src={aws} alt="git-logo" className="git-image" />
+                        <p>Deployed with</p>
+                    </div>
                 </div>
             </div>
         </Fragment>
