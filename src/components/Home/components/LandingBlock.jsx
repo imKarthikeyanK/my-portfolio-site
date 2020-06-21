@@ -1,8 +1,11 @@
 import React, { Fragment } from 'react';
-import CodingSVG from '../../../static/svg/code.svg';
+// import CodingSVG from '../../../static/svg/code.svg';
 
 
 function LandingBlock() {
+    let imageObj = {
+        CodingSVG: "https://kportfolio-files.s3.ap-south-1.amazonaws.com/code.svg"
+    }
     return (
         <Fragment>
             <div className="landingBlock">
@@ -15,7 +18,7 @@ function LandingBlock() {
                         </div>
                     </div>
                     <div className="profilePicture">
-                        <img src={CodingSVG} alt="karthikeyank"></img>
+                        <img src={imageObj.CodingSVG} alt="code logo"></img>
                     </div>
                 </div>
                 <div className="down-arrow">

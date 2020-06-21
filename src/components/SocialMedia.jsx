@@ -1,16 +1,16 @@
 import React, { Fragment, useEffect } from 'react';
 import SocialCard from './common/SocialCard';
 import { Helmet } from 'react-helmet';
-import linkedIn from '../static/svg/linkedin.svg';
-import facebook from '../static/svg/facebook.svg';
-import twitter from '../static/svg/twitter.svg';
-import instagram from '../static/svg/insta.svg';
-import GitHub from '../static/images/GitHub-Mark-64px.png';
+// import linkedIn from '../static/svg/linkedin.svg';
+// import facebook from '../static/svg/facebook.svg';
+// import twitter from '../static/svg/twitter.svg';
+// import instagram from '../static/svg/insta.svg';
+// import GitHub from '../static/images/GitHub-Mark-64px.png';
 
 // social media accounts data
 const social = [
     {
-        "imageUrl": linkedIn,
+        "imageUrl": "https://kportfolio-files.s3.ap-south-1.amazonaws.com/linkedin.svg",
         "SocialUrl": "https://www.linkedin.com/in/imkarthikeyank",
         "displayUrl": "linkedin.com/in/imkarthikeyank",
         "coverText": "LinkedIn",
@@ -18,7 +18,7 @@ const social = [
         "hoverClass": "hover-linkedin"
     },
     {
-        "imageUrl": GitHub,
+        "imageUrl": "https://kportfolio-files.s3.ap-south-1.amazonaws.com/GitHub-Mark-64px.png",
         "SocialUrl": "https://github.com/imKKK",
         "displayUrl": "github.com/imKKK",
         "coverText": "GitHub",
@@ -26,7 +26,7 @@ const social = [
         "hoverClass": "hover-github"
     },
     {
-        "imageUrl": twitter,
+        "imageUrl": "https://kportfolio-files.s3.ap-south-1.amazonaws.com/twitter.svg",
         "SocialUrl": "https://www.twitter.com/imkarthikeyank",
         "displayUrl": "twitter.com/imkarthikeyank",
         "coverText": "Twitter",
@@ -34,7 +34,7 @@ const social = [
         "hoverClass": "hover-twitter"
     },
     {
-        "imageUrl": facebook,
+        "imageUrl": "https://kportfolio-files.s3.ap-south-1.amazonaws.com/facebook.svg",
         "SocialUrl": "https://www.facebook.com/imkarthikeyank/",
         "displayUrl": "facebook.com/imkarthikeyank",
         "coverText": "Facebook",
@@ -42,7 +42,7 @@ const social = [
         "hoverClass": "hover-fb"
     },
     {
-        "imageUrl": instagram,
+        "imageUrl": "https://kportfolio-files.s3.ap-south-1.amazonaws.com/insta.svg",
         "SocialUrl": "https://www.instagram.com/karthikeyank_",
         "displayUrl": "instagram.com/karthikeyank_",
         "coverText": "Instagram",
@@ -50,7 +50,7 @@ const social = [
         "hoverClass": "hover-insta"
     },
     {
-        "imageUrl": instagram,
+        "imageUrl": "https://kportfolio-files.s3.ap-south-1.amazonaws.com/insta.svg",
         "SocialUrl": "https://www.instagram.com/beingzeros",
         "displayUrl": "instagram.com/beingzeros",
         "coverText": "Instagram",
@@ -58,7 +58,7 @@ const social = [
         "hoverClass": "hover-insta"
     },
     {
-        "imageUrl": instagram,
+        "imageUrl": "https://kportfolio-files.s3.ap-south-1.amazonaws.com/insta.svg",
         "SocialUrl": "https://www.instagram.com/initial_touch",
         "displayUrl": "instagram.com/initial_touch",
         "coverText": "Instagram",

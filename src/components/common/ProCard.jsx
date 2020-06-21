@@ -1,15 +1,18 @@
 import React, { Fragment } from 'react';
-import Proimage from '../../static/svg/project.svg';
+// import Proimage from '../../static/svg/project.svg';
 
 
 function ProCard({ project }) {
+    let imageObj = {
+        ProIcon: "https://kportfolio-files.s3.ap-south-1.amazonaws.com/project.svg"
+    }
     return (
         <Fragment>
             <div className="pro-card-container">
                 <div className="pro-card">
                     <div className="title">
                         <div className="proicon">
-                            <img src={Proimage} alt="project icon" />
+                            <img src={imageObj.ProIcon} alt="project icon" />
                         </div>
                         <div className="protitle">
                             <h1>{project.name}</h1>

@@ -1,15 +1,18 @@
 import React, { Fragment } from 'react';
-import profileImage from '../../../static/images/Karthikeyank.png';
+// import profileImage from '../../../static/images/Karthikeyank.png';
 import { Link } from 'react-router-dom';
 
 
 function Introduction() {
+    let imageObj = {
+        profileImage: "https://kportfolio-files.s3.ap-south-1.amazonaws.com/Karthikeyank.png"
+    }
     return (
         <Fragment>
             <div className="introduction" id="intro">
                 <div className="col">
                     <div className="profilePicture">
-                        <img src={profileImage} alt="karthikeyank"></img>
+                        <img src={imageObj.profileImage} alt="karthikeyank"></img>
                     </div>
                 </div>
                 <div className="col">

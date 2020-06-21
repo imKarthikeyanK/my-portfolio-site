@@ -4,7 +4,7 @@ import ExperienceCard from './common/ExperienceCard';
 import ImageCard from './common/imageCard';
 import { Link } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
-import StayHungry from '../static/images/stay-hungry.jpg';
+// import StayHungry from '../static/images/stay-hungry.jpg';
 
 // projects data
 const projects = [
@@ -67,10 +67,11 @@ const Experience = [
     {
         company: "image",
         workRange: "",
-        workArea: StayHungry,
+        workArea: "https://kportfolio-files.s3.ap-south-1.amazonaws.com/stay-hungry.jpg",
         workLocation: "stay hungry stay foolish"
     }
 ]
+
 
 function Projects() {
     useEffect(()=>{
