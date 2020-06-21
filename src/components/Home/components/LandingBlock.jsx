@@ -1,5 +1,4 @@
 import React, { Fragment } from 'react';
-// import profileImage from '../../../static/images/karthikeyank.jpg';
 import CodingSVG from '../../../static/svg/code.svg';
 
 
@@ -20,7 +19,7 @@ function LandingBlock() {
                     </div>
                 </div>
                 <div className="down-arrow">
-                    <span></span>
+                    <a href="#intro"><span></span></a>
                 </div>
             </div>
         </Fragment>

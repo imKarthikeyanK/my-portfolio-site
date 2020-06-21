@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react';
 
-
+// not used for now
 function Gallery() {
     return (
         <Fragment>

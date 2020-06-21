@@ -1,12 +1,12 @@
 import React, { Fragment } from 'react';
-import profileImage from '../../../static/images/Karthikeyank.JPEG';
+import profileImage from '../../../static/images/Karthikeyank.png';
 import { Link } from 'react-router-dom';
 
 
 function Introduction() {
     return (
         <Fragment>
-            <div className="introduction">
+            <div className="introduction" id="intro">
                 <div className="col">
                     <div className="profilePicture">
                         <img src={profileImage} alt="karthikeyank"></img>

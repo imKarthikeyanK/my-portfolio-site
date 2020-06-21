@@ -10,7 +10,7 @@ function Footer() {
             <div className="footer">
                 <div className="col">
                     <img src={GitImage} alt="git-logo" className="git-image" />
-                    <p>Source Available <a href="https://github.com/imKKK/my-portfolio-site" rel="noopener noreferror" target="_blank">here</a></p>
+                    <p>Source Available <a href="https://github.com/imKKK/my-portfolio-site" target="_blank" rel="noopener noreferrer">here</a></p>
                 </div>
                 <div className="col">
                     <Link to={'/connect'}>

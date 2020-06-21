@@ -1,6 +1,4 @@
 import React, { Fragment } from 'react';
-import { Link } from 'react-router-dom';
-
 
 function SocialCard({ social }) {
     return (

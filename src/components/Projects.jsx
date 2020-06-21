@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React, { Fragment, useEffect } from 'react';
 import ProCard from './common/ProCard';
 import ExperienceCard from './common/ExperienceCard';
 import ImageCard from './common/imageCard';
@@ -6,6 +6,7 @@ import { Link } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
 import StayHungry from '../static/images/stay-hungry.jpg';
 
+// projects data
 const projects = [
     {
         name: "Speech To Text Transcriber Using Mozilla Deep Speech Open Source Models (ML)",
@@ -55,6 +56,7 @@ const projects = [
     }
 ]
 
+// experience data
 const Experience = [
     {
         company: "Prematix Software Solution, Hosur",
@@ -71,6 +73,9 @@ const Experience = [
 ]
 
 function Projects() {
+    useEffect(()=>{
+        window.scrollTo(0, 0)
+    }, [])
     return (
         <Fragment>
             <Helmet>

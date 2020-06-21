@@ -1,3 +1,5 @@
+// styles for projects component
+
 .projects {
     padding: 0rem 5rem 0rem 5rem;
     background-color: $bg-landing-2;
@@ -45,19 +47,7 @@
         }
 
         .div-title {
-            padding: 0rem 2rem 3rem;
-            text-align: center;
-
-            h1 {
-                margin: 0 !important;
-                letter-spacing: .1rem;
-                font-weight: 500;
-
-                &::first-letter {
-                    text-decoration: overline;
-                    text-decoration-color: $land-underline;
-                }
-            }
+            @include pro-div-title;
         }
     }
 }
@@ -133,19 +123,7 @@
         }
 
         .div-title {
-            padding: 0rem 2rem 4rem;
-            text-align: center;
-
-            h1 {
-                margin: 0 !important;
-                letter-spacing: .1rem;
-                font-weight: 500;
-
-                &::first-letter {
-                    text-decoration: overline;
-                    text-decoration-color: $land-underline;
-                }
-            }
+            @include pro-div-title;
         }
     }
 }

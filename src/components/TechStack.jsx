@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React, { Fragment, useEffect } from 'react';
 import Card from './common/cards';
 import { Link } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
@@ -23,6 +23,7 @@ import aws from '../static/images/aws.png';
 import msof from '../static/images/msof.png';
 import ps from '../static/images/ps.png';
 
+// skills data
 const skills = [
     {
         skill: "Python",
@@ -127,6 +128,11 @@ const skills = [
 ]
 
 function TechStack() {
+
+    useEffect(()=>{
+        window.scrollTo(0, 0)
+    }, [])
+
     return (
         <Fragment>
             <Helmet>

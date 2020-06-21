@@ -9,9 +9,6 @@ function Card({ skills }) {
                     <div className="image-container">
                         <img src={skills.image} className="image" alt="skill"></img>
                     </div>
-                    {/* <div className="content-container">
-                        <p className="container">{skills.description}</p>
-                    </div> */}
                 </div>
             </div>
         </Fragment>

@@ -1,3 +1,5 @@
+// styles for introduction component in home page
+
 .introduction {
     background-color: $bg-landing-2;
     display: flex;
@@ -14,8 +16,6 @@
 
             img {
                 width: 100%;
-                // border: 10px solid $land-font-color;
-                // border-radius: 1.5rem;
                 box-shadow: -4px 4px 20px 2px #151515;
             }
         }
@@ -63,7 +63,7 @@
         .col:nth-child(1) {
 
             .profilePicture {
-                padding: 0rem 8rem 3rem 6rem;
+                padding: 0rem 7rem 2rem 7rem;
             }
         }
 

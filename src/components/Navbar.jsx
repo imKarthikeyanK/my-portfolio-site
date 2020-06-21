@@ -1,4 +1,4 @@
-import React, { Fragment, useState } from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { useWindowSize, useLockBodyScroll } from 'react-use';
 import { ReactComponent as MenuIcon } from '../static/svg/menu.svg';
@@ -13,8 +13,11 @@ const navLinkProps = (path, animationDelay) => ({
 
 function NavBar({ pages }) {
     const WindowSize = useWindowSize();
+    // state hook to control menu icon toggle
     const [expand, setExpand] = useState(false);
+    // lock body scroll on mobile view
     useLockBodyScroll(expand);
+    // setExpand initialization
     WindowSize.width > 769 && expand && setExpand(false)
 
     return (
@@ -43,6 +46,7 @@ function NavBar({ pages }) {
     )
 }
 
+// component to expand menu items on mobile view
 function NavbarExtended({ pages, expand, setExpand }) {
     return (
         <div className="expand">

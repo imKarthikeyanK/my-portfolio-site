@@ -1,9 +1,10 @@
 @import './mixins.scss';
 
+// styles for nav component
+
 .Navbar {
     background-color: $bg-nav;
     display: flex;
-    // padding-bottom: 1rem;
 
     .brand {
         flex-grow: 1;
