@@ -1,6 +1,5 @@
 import React, { Suspense, lazy } from 'react';
 import Home from './components/Home';
-import Gallery from './components/Gallery';
 import TechStack from './components/TechStack';
 import NavBar from './components/Navbar';
 import Projects from './components/Projects';
@@ -19,13 +18,14 @@ import './App.scss';
 const schemaMarkup = {
   '@context': 'http:schema.org/',
   '@type': 'Portfolio',
-  name: 'Karthikeyan K - Full Stack Python React developer',
+  name: 'Karthikeyan K - Full Stack developer',
   alternateName: 'Karthikeyan K',
   url: '',
   image: ''
 }
 
 function App() {
+  // iterable menu items
   const pages = [
     {
       pageLink: '/',
@@ -56,6 +56,7 @@ function App() {
       showInNavbar: true
     }
   ]
+
   return (
     <div className="App">
       <Helmet>
