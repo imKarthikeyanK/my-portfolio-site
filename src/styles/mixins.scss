@@ -67,3 +67,21 @@
         opacity: 1;
     }
 }
+
+@mixin pro-div-title {
+    padding: 0rem 2rem 3rem;
+    text-align: center;
+
+    h1 {
+        margin: 0 !important;
+        letter-spacing: .1rem;
+        font-weight: 500;
+        animation: none;
+        opacity: 1;
+
+        &::first-letter {
+            text-decoration: overline;
+            text-decoration-color: $land-underline;
+        }
+    }
+}
