@@ -2,26 +2,6 @@ import React, { Fragment, useEffect } from 'react';
 import Card from './common/cards';
 import { Link } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
-// import python from '../static/images/python.png';
-// import react from '../static/images/react.png';
-// import mysql from '../static/images/mysql.png';
-// import sqlserver from '../static/images/sqlserver1.png';
-// import html from '../static/images/html.png';
-// import css from '../static/images/css.png';
-// import javascript from '../static/images/javascript.png';
-// import flask from '../static/images/flask.png';
-// import django from '../static/images/django.png';
-// import jquery from '../static/images/jquery.png';
-// import mongodb from '../static/images/mongodb.png';
-// import sass from '../static/images/sass.png';
-// import cpro from '../static/images/cpro.png';
-// import cplus from '../static/images/cplus.png';
-// import java from '../static/images/java.png';
-// import bootstrap from '../static/images/bootstrap.png';
-// import git from '../static/images/git.png';
-// import aws from '../static/images/aws.png';
-// import msof from '../static/images/msof.png';
-// import ps from '../static/images/ps.png';
 
 // skills data
 const skills = [

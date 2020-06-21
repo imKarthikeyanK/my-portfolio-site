@@ -1,5 +1,4 @@
 import React, { Fragment } from 'react';
-// import Proimage from '../../static/svg/project.svg';
 
 
 function ProCard({ project }) {

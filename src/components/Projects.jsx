@@ -4,7 +4,6 @@ import ExperienceCard from './common/ExperienceCard';
 import ImageCard from './common/imageCard';
 import { Link } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
-// import StayHungry from '../static/images/stay-hungry.jpg';
 
 // projects data
 const projects = [

@@ -1,7 +1,5 @@
 import React, { Fragment } from 'react';
-// import GitImage from '../static/images/GitHub-Mark-Light-64px.png';
 import { Link } from 'react-router-dom';
-// import aws from '../static/images/awsl.png';
 
 
 function Footer() {
