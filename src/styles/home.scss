@@ -1,3 +1,5 @@
+// styles for landingblock in homepage
+
 .landingBlock {
     min-height: 88vh;
     margin-top: -1px;
@@ -39,15 +41,11 @@
         }
 
         .profilePicture {
-            // flex: 1;
             order: 2;
             padding: 10rem 5rem 4rem;
 
             img {
                 width: 100%;
-                // border: 10px solid $land-font-color;
-                // border-radius: 1.5rem;
-                // box-shadow: 0 0 50px 10px black;
             }
         }
     }
@@ -56,9 +54,9 @@
         text-align: center;
         padding-top: 2rem;
         span {
-            padding-top: 23px;
+            padding-top: 18px;
             position: absolute;
-            width: 26px;
+            width: 21px;
             bottom: 50px;
             margin-left: -12px;
             border-left: 3px solid $land-font-color;
