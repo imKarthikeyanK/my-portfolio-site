@@ -1,4 +1,3 @@
-// colot palatte
 @import './styles/variables.scss';
 @import './styles/nav.scss';
 @import './styles/home.scss';
@@ -7,10 +6,10 @@
 @import './styles/skills.scss';
 @import './styles/projects.scss';
 @import './styles/connect.scss';
-// @import './styles/mixins.scss';
 
 html {
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 
 .App {
