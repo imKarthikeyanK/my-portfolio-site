@@ -48,9 +48,52 @@ const projects = [
         ]
     },
     {
-        name: "& More",
+        name: "Easy Fruit Veg Web App",
         description: [
-            "Contributed to 6+ more Projects in API development, DBMS, React web App Development, Chat bots development of various use cases and WhatsApp hook using twilio"
+            "Easy Fruit Veg is an eCommerce web app to showcase and sell Fresh Vegitables online.",
+            "The React app with Python backend developed by Prematix based on an Product Idea. I contributed to the API development and web app development in the areas of Product Order pipeline, Product Listings and User management."
+        ]
+    },
+    {
+        name: "Loans Web App",
+        description: [
+            "Loans web app is an Vendour specific loan management web application built with Python for backend and React js for front end and MySQL for database. I contributed to the Complete API development with Flask and bit of front end development with React js."
+        ]
+    },
+    {
+        name: "Chat bots of various domains",
+        description: [
+            "Built highly responsive & intelligent Chat bots to support various use cases using Python Chatterbot, Ajax."
+        ]
+    },
+    {
+        name: "Web Scrapping",
+        description: [
+            "Built Automated web scrappers to scrap data from particular sites, convert them into json and stores them into database for data analysis"
+        ]
+    },
+    {
+        name: "Zero call Accidents Android App",
+        description: [
+            "Zero call Accidents is an Android App which we built in our college for IEDC.",
+            "We have got funded by the Indian govt for the project.", 
+            "We have participated in the Tamilnadu state skill summit with this app and won first prize in zonal level and participated in State level skill summit."
+        ]
+    },
+    {
+        name: "SpeakyTalky Android App",
+        description: [
+            "Speaky Talky is our Final year Project Android Application",
+            "The app can be used as an communication assistant to make communication between speacially challenged people and normal people"
+        ]
+    },
+    {
+        name: "Acheivements",
+        description: [
+            "Excellent and Consistent Performer of The Year 2018-2019 (Prematix)",
+            "Won District level TN Govt Skill Summit for Zero Call Accidents Android App & Participated in State Level",
+            "Employee Of the Month Awards",
+            "IIT Bombay Certified for Soft Skills and Workplace Communication"
         ]
     }
 ]
