@@ -101,16 +101,18 @@ const projects = [
 // experience data
 const Experience = [
     {
-        company: "Prematix Software Solution, Hosur",
-        workRange: "June 2018 - Still (2 Years)",
+        company: "Prematix",
+        workRange: "June 2018 - July 2020",
         workArea: "☆ Full Stack Development (Python, React)",
-        workLocation: "Hosur, Tamil Nadu, INDIA"
+        workLocation: "Hosur, Tamil Nadu, INDIA",
+        companyLogo: "https://kportfolio-files.s3.ap-south-1.amazonaws.com/Prematix+Logo.svg"
     },
     {
-        company: "image",
-        workRange: "",
-        workArea: "https://kportfolio-files.s3.ap-south-1.amazonaws.com/stay-hungry.jpg",
-        workLocation: "stay hungry stay foolish"
+        company: "Verloop",
+        workRange: "July 2020 - Still",
+        workArea: "☆ Backend Engineering (Python)",
+        workLocation: "Bengaluru, Karnataka, INDIA",
+        companyLogo: "https://kportfolio-files.s3.ap-south-1.amazonaws.com/Verloop-Logo-Vertical-HD.png"
     }
 ]
 
