@@ -70,9 +70,14 @@
                 .exp-card {
                     box-shadow: -3px 3px 30px 2px #151515;
                     background: linear-gradient(45deg, $bg-nav, $bg-landing-2);
+                    display: flex;
+
+                    .comp-logo {
+                        padding: 2rem 0rem 0rem 1rem;
+                    }
 
                     .title {
-                        padding: 1rem 0rem 0rem 3rem;
+                        padding: 1rem 0rem 0rem 2rem;
                         color: $white;
 
                         h1 {
@@ -81,7 +86,7 @@
                     }
 
                     .company {
-                        padding-left: 4.5rem;
+                        padding-left: 3.5rem;
 
                         h2 {
                             @include pro-card-p;
@@ -90,7 +95,7 @@
                     }
 
                     .work-range {
-                        padding: 1rem 0 0rem 4.5rem;
+                        padding: 1rem 0 0rem 3.5rem;
 
                         p {
                             @include pro-card-p;
@@ -98,7 +103,7 @@
                     }
 
                     .work-location {
-                        padding: 1rem 0 1.8rem 4.7rem;
+                        padding: 1rem 0 1.8rem 3.5rem;
 
                         p {
                             @include pro-card-p;
