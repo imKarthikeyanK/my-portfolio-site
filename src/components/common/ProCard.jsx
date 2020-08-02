@@ -10,11 +10,20 @@ function ProCard({ project }) {
             <div className="pro-card-container">
                 <div className="pro-card">
                     <div className="title">
-                        <div className="proicon">
-                            <img src={imageObj.ProIcon} alt="project icon" />
+                        <div className="title-info">
+                            <div className="proicon">
+                                <img src={imageObj.ProIcon} alt="project icon" />
+                            </div>
+                            <div className="protitle">
+                                <h1>{project.name}</h1>
+                            </div>
                         </div>
-                        <div className="protitle">
-                            <h1>{project.name}</h1>
+                        <div className="stacks-info">
+                            {project.stacks.map((stack, i) => (
+                                <div key={i} className="stack-item">
+                                    {stack}
+                                </div>
+                            ))}
                         </div>
                     </div>
                     <div className="description">
