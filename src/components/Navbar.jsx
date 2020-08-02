@@ -15,6 +15,7 @@ function NavBar({ pages }) {
     const WindowSize = useWindowSize();
     // state hook to control menu icon toggle
     const [expand, setExpand] = useState(false);
+    // const [isDarkMode, setIsDarkMode] = useState(true);
     // lock body scroll on mobile view
     useLockBodyScroll(expand);
     // setExpand initialization
@@ -41,6 +42,11 @@ function NavBar({ pages }) {
                     <MenuIcon onClick={() => setExpand(!expand)} />
                 )}
             </div>
+            {/* {isDarkMode ?
+                <p className="dark-mode-toggle" onClick={() => setIsDarkMode(!isDarkMode)}>☀</p>
+                :
+                <p className="dark-mode-toggle" onClick={() => setIsDarkMode(!isDarkMode)}>☾</p>
+            } */}
             {expand && <NavbarExtended pages={pages} expand={expand} setExpand={setExpand} />}
         </div>
     )
