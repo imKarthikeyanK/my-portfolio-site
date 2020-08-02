@@ -17,20 +17,47 @@
                     background: linear-gradient(45deg, $bg-nav 85%, $tip-color 15%);
                     padding: 1rem 1rem;
                     color: $white;
-                    display: flex;
 
-                    .proicon {
-                        height: 2rem;
-                        padding: 1.6rem;
+                    .title-info {
+                        display: flex;
 
-                        img {
+                        .proicon {
                             height: 2rem;
+                            padding: 1.6rem;
+                            padding-bottom: 0;
+
+                            img {
+                                height: 2rem;
+                            }
+                        }
+
+                        .protitle {
+                            h1 {
+                                font-weight: 400;
+                            }
                         }
                     }
 
-                    .protitle {
-                        h1 {
-                            font-weight: 400;
+                    .stacks-info {
+                        padding-left: 5.3rem;
+                        display: flex;
+                        flex-wrap: wrap;
+
+                        .stack-item {
+                            padding: 0.4rem;
+                            color: black;
+                            font-size: 1.2rem;
+                            border-radius: .3rem;
+                            margin-right: .4rem;
+                            margin-bottom: .4rem;
+                            background: rgba($color: #ffffff, $alpha: 0.8);
+
+                            &:hover {
+                                background: rgba($color: #ffffff, $alpha: 0.2);
+                                color: white;
+                                cursor: pointer;
+                                transition: all .3s ease-in-out;
+                            }
                         }
                     }
                 }
@@ -145,7 +172,7 @@
                 .pro-card {
 
                     .title {
-                        padding: 1rem 4rem 0rem 0rem;
+                        padding: 1rem 4rem 1rem 0rem;
                     }
 
                     .description {
@@ -190,6 +217,7 @@
                         }
                     }
                 }
+
                 .image-card {
                     padding: 0 0 5rem 0rem;
                     width: 100%;
