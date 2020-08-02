@@ -9,6 +9,7 @@ import { Helmet } from 'react-helmet';
 const projects = [
     {
         name: "Speech To Text Transcriber Using Mozilla Deep Speech Open Source Models (ML)",
+        stacks: ["Python", "AI", "Machine Learning", "Mozilla DeepSpeech", "Flask", "Speech Recognition"],
         description: [
             "Using Mozilla’s Open Source Pre Trained Deep Speech Models, built Flask Application to Transcribe Customer support audio Speeches into Texts Logs.",
             "Trained and Fine-tuned the model with Custom Generated Dataset for Indian Accent.",
@@ -17,6 +18,7 @@ const projects = [
     },
     {
         name: "Project Management System (Internal Flask Application)",
+        stacks: ["Python", "Flask", "MSSQL Server", "HTML", "CSS", "JavaScript", "AJAX"],
         description: [
             "Built end to end Flask Application which is one of the major applications used by 50+ employees in the current firm.",
             "The Product helps the firm to Manage and Maintain Projects, Day to Day Tasks & Activity Allocation, Time Sheet Entry, Work Report Generation and to Track Works and Productivity of Developers.",
@@ -25,6 +27,7 @@ const projects = [
     },
     {
         name: "IRCTC Tourism Application (e-Commerce)",
+        stacks: ["Python", "Flask", "MSSQL Server", "REST API"],
         description: [
             "Built complete scalable Back end REST API for Tourism Project which powers Web and Android Applications in front end.",
             "Built with various features including Automated best & low cost Tour Plans suggestion service using start & end locations, Automatic generation of Travel itinerary for single & round trips and booking tickets with all kind of travel services with best possible cost and time.",
@@ -34,6 +37,7 @@ const projects = [
     },
     {
         name: "Face Recognition System (Machine Learning, Web Applications, Insight Face, OpenCV)",
+        stacks: ["Python", "Flask", "AI", "Machine Learning", "Face Recognition", "Insight Face", "OpenCV", "React JS", "JavaScript", "HTML", "CSS"],
         description: [
             "As part of the team contributed well to the core Face recognition engine.",
             "Helped the team by tweaking an algorithm which improved the recognition speed by 50%, tweaked pre training method which improved the training performance by 15%, fine-tuned recognition parameters which improved recognition accuracy up to 15%.",
@@ -43,12 +47,14 @@ const projects = [
     },
     {
         name: "IRCTC Events Management",
+        stacks: ["Python", "Flask", "MSSQL Server", "REST API", "React JS", "JavaScript", "HTML", "CSS"],
         description: [
             "Built scalable backend REST API services for the web and handled the front end Event registration pipeline with React which features series of forms with fully customizable event scheduling feature & handles event booking feature with React & provided API support for the Consumers"
         ]
     },
     {
         name: "Easy Fruit Veg Web App",
+        stacks: ["Python", "Flask", "MySQL", "REST API", "React JS", "JavaScript", "HTML", "CSS"],
         description: [
             "Easy Fruit Veg is an eCommerce web app to showcase and sell Fresh Vegitables online.",
             "The React app with Python backend developed by Prematix based on an Product Idea. I contributed to the API development and web app development in the areas of Product Order pipeline, Product Listings and User management."
@@ -56,24 +62,28 @@ const projects = [
     },
     {
         name: "Loans Web App",
+        stacks: ["Python", "Flask", "MSSQL Server", "REST API", "React JS", "JavaScript", "HTML", "CSS"],
         description: [
             "Loans web app is an Vendour specific loan management web application built with Python for backend and React js for front end and MySQL for database. I contributed to the Complete API development with Flask and bit of front end development with React js."
         ]
     },
     {
         name: "Chat bots of various domains",
+        stacks: ["Python", "Flask", "MySQL", "JavaScript", "HTML", "CSS"],
         description: [
             "Built highly responsive & intelligent Chat bots to support various use cases using Python Chatterbot, Ajax."
         ]
     },
     {
         name: "Web Scrapping",
+        stacks: ["Python", "Flask"],
         description: [
             "Built Automated web scrappers to scrap data from particular sites, convert them into json and stores them into database for data analysis"
         ]
     },
     {
         name: "Zero call Accidents Android App",
+        stacks: ["Android", "Java"],
         description: [
             "Zero call Accidents is an Android App which we built in our college for IEDC.",
             "We have got funded by the Indian govt for the project.", 
@@ -82,6 +92,7 @@ const projects = [
     },
     {
         name: "SpeakyTalky Android App",
+        stacks: ["Android", "Java"],
         description: [
             "Speaky Talky is our Final year Project Android Application",
             "The app can be used as an communication assistant to make communication between speacially challenged people and normal people"
@@ -89,6 +100,7 @@ const projects = [
     },
     {
         name: "Acheivements",
+        stacks: [],
         description: [
             "Excellent and Consistent Performer of The Year 2018-2019 (Prematix)",
             "Won District level TN Govt Skill Summit for Zero Call Accidents Android App & Participated in State Level",
@@ -101,18 +113,18 @@ const projects = [
 // experience data
 const Experience = [
     {
-        company: "Prematix",
-        workRange: "June 2018 - July 2020",
-        workArea: "☆ Full Stack Development (Python, React)",
-        workLocation: "Hosur, Tamil Nadu, INDIA",
-        companyLogo: "https://kportfolio-files.s3.ap-south-1.amazonaws.com/Prematix+Logo.svg"
-    },
-    {
         company: "Verloop",
         workRange: "July 2020 - Still",
         workArea: "☆ Backend Engineering (Python)",
         workLocation: "Bengaluru, Karnataka, INDIA",
         companyLogo: "https://kportfolio-files.s3.ap-south-1.amazonaws.com/Verloop-Logo-Vertical-HD.png"
+    },
+    {
+        company: "Prematix",
+        workRange: "June 2018 - July 2020",
+        workArea: "☆ Full Stack Development (Python, React)",
+        workLocation: "Hosur, Tamil Nadu, INDIA",
+        companyLogo: "https://kportfolio-files.s3.ap-south-1.amazonaws.com/Prematix+Logo.svg"
     }
 ]
 
