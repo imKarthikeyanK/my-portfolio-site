@@ -20,5 +20,5 @@ npm start
 
 ## Recommendations
 
-Recommandations and critisims are welcome. Please feel free to recommend any improvements
+Recommandations and critisims are welcome. Please feel free to recommend any improvements.
 
