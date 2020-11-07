@@ -115,7 +115,7 @@ const Experience = [
     {
         company: "Verloop",
         workRange: "July 2020 - Still",
-        workArea: "☆ Backend Engineering (Python)",
+        workArea: "☆ Software Engineer (Python)",
         workLocation: "Bengaluru, Karnataka, INDIA",
         companyLogo: "https://kportfolio-files.s3.ap-south-1.amazonaws.com/Verloop-Logo-Vertical-HD.png"
     },
