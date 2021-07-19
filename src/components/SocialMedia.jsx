@@ -14,7 +14,7 @@ const social = [
     },
     {
         "imageUrl": "https://kportfolio-files.s3.ap-south-1.amazonaws.com/GitHub-Mark-64px.png",
-        "SocialUrl": "https://github.com/imKKK",
+        "SocialUrl": "https://github.com/imKarthikeyanK",
         "displayUrl": "github.com/imKKK",
         "coverText": "GitHub",
         "colorClass": "bg-github",
