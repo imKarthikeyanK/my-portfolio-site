@@ -11,60 +11,9 @@ const projects = [
         name: "Speech To Text Transcriber Using Mozilla Deep Speech Open Source Models (ML)",
         stacks: ["Python", "AI", "Machine Learning", "Mozilla DeepSpeech", "Flask", "Speech Recognition"],
         description: [
-            "Using Mozilla’s Open Source Pre Trained Deep Speech Models, built Flask Application to Transcribe Customer support audio Speeches into Texts Logs.",
+            "Using Mozilla’s Open Source Pre Trained Deep Speech Models, built Flask Application to Transcribe audio Speeches into Texts Logs.",
             "Trained and Fine-tuned the model with Custom Generated Dataset for Indian Accent.",
             "Involved Various Machine Learning Practices including data analysis, data cleaning, data preparation, automating data cleaning, preparation pipeline which takes in a long audio of various formats and converts it into 16000 Hz, 16bit channel & into WAV file and crops the WAV into small chunks wherever it hits silence in audio and generating text logs for the chunks using pre trained models in a Linux environment"
-        ]
-    },
-    {
-        name: "Project Management System (Internal Flask Application)",
-        stacks: ["Python", "Flask", "MSSQL Server", "HTML", "CSS", "JavaScript", "AJAX"],
-        description: [
-            "Built end to end Flask Application which is one of the major applications used by 50+ employees in the current firm.",
-            "The Product helps the firm to Manage and Maintain Projects, Day to Day Tasks & Activity Allocation, Time Sheet Entry, Work Report Generation and to Track Works and Productivity of Developers.",
-            "With various other features including Automated weekly Mail Notification to send detailed summary of previous week timesheet and productivity report, bulk time sheet entry, Cumulative Dashboard & Multi User Panels, etc."
-        ]
-    },
-    {
-        name: "IRCTC Tourism Application (e-Commerce)",
-        stacks: ["Python", "Flask", "MSSQL Server", "REST API"],
-        description: [
-            "Built complete scalable Back end REST API for Tourism Project which powers Web and Android Applications in front end.",
-            "Built with various features including Automated best & low cost Tour Plans suggestion service using start & end locations, Automatic generation of Travel itinerary for single & round trips and booking tickets with all kind of travel services with best possible cost and time.",
-            "Generation of PDF travel itinerary Report with complete tour plan details and schedule. Plan covers from Taxis, Hotels, bus, trains to tourist spots & guides.",
-            "Built the end to end application and supported the API consumers throughout the project"
-        ]
-    },
-    {
-        name: "Face Recognition System (Machine Learning, Web Applications, Insight Face, OpenCV)",
-        stacks: ["Python", "Flask", "AI", "Machine Learning", "Face Recognition", "Insight Face", "OpenCV", "React JS", "JavaScript", "HTML", "CSS"],
-        description: [
-            "As part of the team contributed well to the core Face recognition engine.",
-            "Helped the team by tweaking an algorithm which improved the recognition speed by 50%, tweaked pre training method which improved the training performance by 15%, fine-tuned recognition parameters which improved recognition accuracy up to 15%.",
-            "Built front end web apps using React for use cases such as Employee attendance, Visitor management, VIP management and Criminal Identification.",
-            "Built an algorithm to have a single backend file system organization and storage functionality & handle duplicate entries and abandoned registration files for all the above use cases."
-        ]
-    },
-    {
-        name: "IRCTC Events Management",
-        stacks: ["Python", "Flask", "MSSQL Server", "REST API", "React JS", "JavaScript", "HTML", "CSS"],
-        description: [
-            "Built scalable backend REST API services for the web and handled the front end Event registration pipeline with React which features series of forms with fully customizable event scheduling feature & handles event booking feature with React & provided API support for the Consumers"
-        ]
-    },
-    {
-        name: "Easy Fruit Veg Web App",
-        stacks: ["Python", "Flask", "MySQL", "REST API", "React JS", "JavaScript", "HTML", "CSS"],
-        description: [
-            "Easy Fruit Veg is an eCommerce web app to showcase and sell Fresh Vegitables online.",
-            "The React app with Python backend developed by Prematix based on an Product Idea. I contributed to the API development and web app development in the areas of Product Order pipeline, Product Listings and User management."
-        ]
-    },
-    {
-        name: "Loans Web App",
-        stacks: ["Python", "Flask", "MSSQL Server", "REST API", "React JS", "JavaScript", "HTML", "CSS"],
-        description: [
-            "Loans web app is an Vendour specific loan management web application built with Python for backend and React js for front end and MySQL for database. I contributed to the Complete API development with Flask and bit of front end development with React js."
         ]
     },
     {
@@ -78,7 +27,7 @@ const projects = [
         name: "Web Scrapping",
         stacks: ["Python", "Flask"],
         description: [
-            "Built Automated web scrappers to scrap data from particular sites, convert them into json and stores them into database for data analysis"
+            "Built Automated web scrappers to scrap data from various sites, convert them into json and stores them into database for data analysis"
         ]
     },
     {
@@ -114,15 +63,15 @@ const projects = [
 const Experience = [
     {
         company: "Verloop",
-        workRange: "July 2020 - Still",
-        workArea: "☆ Software Engineer (Python)",
+        workRange: "July 2020 - November 2021",
+        workArea: "☆ Software Development Engineer",
         workLocation: "Bengaluru, Karnataka, INDIA",
         companyLogo: "https://kportfolio-files.s3.ap-south-1.amazonaws.com/Verloop-Logo-Vertical-HD.png"
     },
     {
         company: "Prematix",
         workRange: "June 2018 - July 2020",
-        workArea: "☆ Full Stack Development (Python, React)",
+        workArea: "☆ Full Stack Developer (Python, React)",
         workLocation: "Hosur, Tamil Nadu, INDIA",
         companyLogo: "https://kportfolio-files.s3.ap-south-1.amazonaws.com/Prematix+Logo.svg"
     }
